@@ -1,1 +1,1 @@
-# HTML-CSS-Course
+# HTML-CSS-Training
