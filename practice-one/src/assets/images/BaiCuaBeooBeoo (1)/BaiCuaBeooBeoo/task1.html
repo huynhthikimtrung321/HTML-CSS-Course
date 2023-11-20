@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .image-container {
+        position: relative;
+}
+    .iphone-screen{
+        width: 312px;
+        height: 460px;
+        flex-shrink: 0;
+        position: absolute;
+        top: 90px;
+        left: 25px;
+        z-index: 1; /
+    }
+    .iphone{
+        width: 358px;
+        height: 551px;
+        flex-shrink: 0;
+        background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+}
+
+</style>
+<body>
+    
+    <div class="iphone-container">
+            <img class="iphone" src="images/iphone.png" alt="">
+            <img class="iphone-screen" src="images/iphone-screen.png" alt="">
+    </div>
+</body>
+</html>

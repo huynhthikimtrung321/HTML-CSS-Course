@@ -1,13 +1,5 @@
 @font-face {
   font-family: myFont;
-  src: url(/practice-one/src/assets/fonts/roboto/Roboto-Black.ttf),
-  url(/practice-one/src/assets/fonts/roboto/Roboto-Bold.ttf),
-  url(/practice-one/src/assets/fonts/roboto/Roboto-BlackItalic.ttf),
-  url(/practice-one/src/assets/fonts/roboto/Roboto-BoldCondensed.ttf),
-  url(/practice-one/src/assets/fonts/roboto/Roboto-BoldCondensedItalic.ttf),
-  url(/practice-one/src/assets/fonts/roboto/Roboto-BoldItalic.ttf),
-  url(/practice-one/src/assets/fonts/roboto/Roboto-Condensed.ttf),
-  url(/practice-one/src/assets/fonts/roboto/Roboto-CondensedItalic.ttf),
-  url(/practice-one/src/assets/fonts/roboto/Roboto-Italic.ttf),
+  src:
   url(/practice-one/src/assets/fonts/roboto/Roboto-Light.ttf);
 }
