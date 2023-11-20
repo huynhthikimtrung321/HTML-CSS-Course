@@ -1,7 +1,6 @@
 .card {
   width: 554px;
   height: 348px;
-  font-family: var(--font-family-primary);
   font-size: var(--card-font-size);
   font-style: var(--font-style);
   font-weight: var(--font-weight);
@@ -14,31 +13,28 @@
   stroke-width: 2px;
 }
 .card-name {
-  font-family: var(--font-family-primary);
   font-size: 24px;
   font-style: var(--font-style);
   font-weight: var(--font-weight);
   line-height: var(--default-line-height);
 }
 .card-subs {
-  background-color: var(--base-color);
-  color: var(--secondary-color);
-  font-family: var(--font-family-primary);
-  font-size: var(--card-font-size);
-  font-style: var(--font-style);
-  font-weight: var(--font-weight);
+  background-color: var(--color-base);
+  color: var(--color-secondary);
+  font-size: var(--font-size-card);
+  font-style: var(--font-style-default);
+  font-weight: var(--font-weight-primary);
   line-height: 26px;
 }
 .card-subs-header {
   width: 262px;
   height: 156px;
   flex-shrink: 0;
-  color: var(--base-color);
-  font-family: var(--font-family-primary);
+  color: var(--color-base);
   font-size: 24px;
-  font-style: var(--font-style);
-  font-weight: var(--font-weight);
-  line-height: var(--default-line-height);
+  font-style: var(--font-style-default);
+  font-weight: var(--font-weight-primary);
+  line-height: var(--line-height-default);
 }
 .card-price {
   width: 52px;
@@ -47,13 +43,12 @@
   flex-direction: column;
   justify-content: flex-end;
   flex-shrink: 0;
-  color: var(--base-color);
+  color: var(--color-base);
   text-align: center;
-  font-family: var(--font-family-primary);
   font-size: 64px;
-  font-style: var(--font-style);
-  font-weight: var(--font-weight);
-  line-height: var(--default-line-height);
+  font-style: var(--font-style-default);
+  font-weight: var(--font-weight-primary);
+  line-height: var(--line-height-default);
 }
 .card-dollar {
   display: flex;
@@ -62,12 +57,11 @@
   flex-direction: column;
   justify-content: flex-end;
   flex-shrink: 0;
-  color: var(--base-color);
+  color: var(--color-base);
   text-align: center;
-  font-family: var(--font-family-primary);
   font-size: 24px;
-  font-style: var(--font-style);
-  font-weight: var(--font-weight);
-  line-height: var(--default-line-height);
+  font-style: var(--font-style-default);
+  font-weight: var(--font-weight-primary);
+  line-height: var(--line-height-default);
   letter-spacing: 1px;
 }

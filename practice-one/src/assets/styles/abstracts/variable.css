@@ -1,17 +1,17 @@
 :root {
-  --primary-color:  #EBCB80;
-  --secondary-color: #4b4b4b;
-  --base-color: #FFF;
+  --color-primary:  #EBCB80;
+  --color-secondary: #4b4b4b;
+  --color-base: #FFF;
   /*-----------------------------------------*\
-  #
+  #SET TYPOGRAPHY
 \*-----------------------------------------*/
-  --base-font-size: 16px;
-  --base-line-height: 24px;
-  --card-font-size: 18px;
-  --heading-font-size: 44px;
-  --heading-line-height: 48px;
-  --font-weight: 400;
-  --font-style: normal;
-  --font-family-primary: 'Roboto-ThinItalic-webfont';
-  --default-line-height: normal;
+  --font-size-base: 16px;
+  --line-height-base: 24px;
+  --font-size-card: 18px;
+  --font-size-heading: 44px;
+  --line-height-heading: 48px;
+  --font-weight-primary: 400;
+  --font-style-default: normal;
+  --font-family-primary: myFont;
+  --line-height-default: normal;
 }

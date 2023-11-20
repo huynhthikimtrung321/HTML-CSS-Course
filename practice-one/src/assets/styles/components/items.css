@@ -10,12 +10,12 @@
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
-  color: var(--primary-color);
+  color: var(--color-primary);
   text-transform: uppercase;
   font-family: var(--font-family-primary);
-  font-size: var(--card-font-size);
-  font-style: var(--font-style);
-  font-weight: var(--font-weight);
+  font-size: var(--font-size-card);
+  font-style: var(--font-style-default);
+  font-weight: var(--font-weight-primary);
 }
 .thumb-content {
   display: flex;
@@ -24,13 +24,13 @@
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
-  color: var(--primary-color);
+  color: var(--color-primary);
   text-align: center;
   font-family: var(--font-family-primary);
-  font-size: var(--base-font-size);
-  font-style: var(--font-style);
-  font-weight: var(--font-weight);
-  line-height: var(--base-line-height);
+  font-size: var(--font-size-base);
+  font-style: var(--font-style-default);
+  font-weight: var(--font-weight-primary);
+  line-height: var(--line-height-base);
 }
 .circle {
   width: 204px;
@@ -39,12 +39,11 @@
   color: #e6e6e6;
 }
 .circle-title {
-  color: var(--primary-color);
+  color: var(--color-primary);
   text-align: center;
-  font-family: var(--font-family-primary);
-  font-size: var(--card-font-size);
-  font-style: var(--font-style);
-  font-weight: var(--font-weight);
+  font-size: var(--font-size-card);
+  font-style: var(--font-style-default);
+  font-weight: var(--font-weight-primary);
   line-height: 30px; /* 166.667% */
   letter-spacing: 1px;
 }
@@ -55,11 +54,10 @@
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
-  color: var(--primary-color);
+  color: var(--color-primary);
   text-align: center;
-  font-family: var(--font-family-primary);
-  font-size: var(--base-font-size);
-  font-style: var(--font-style);
-  font-weight: var(--font-weight);
-  line-height: var(--base-line-height);
+  font-size: var(--font-size-base);
+  font-style: var(--font-style-default);
+  font-weight: var(--font-weight-primary);
+  line-height: var(--line-height-base);
 }
