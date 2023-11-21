@@ -4,6 +4,7 @@
   height: 768px;
   flex-shrink: 0;
 }
+
 .header-navbar {
   display: flex;
   width: 1140;
@@ -13,6 +14,7 @@
   margin-right: 152px;
   margin-left: 152px;
 }
+
 .text-logo {
   color: var(--color-primary);
   text-align: center;
@@ -22,12 +24,14 @@
   line-height: var(--line-height-default);
   letter-spacing: 1.997px;
 }
+
 .nav-list {
   display: flex;
   list-style: none;
   margin-top: 5px;
   gap: 70px;
 }
+
 .text-list {
   color: var(--color-base);
   text-decoration: none;
@@ -38,16 +42,19 @@
   line-height: var(--line-height-default);
   letter-spacing: 1px;
 }
+
 .list-icon {
   display: flex;
   align-items: center;
   gap: 25px;
 }
+
 .icon-search {
   width: 24.02px;
   height: 31.808px;
   flex-shrink: 0;
 }
+
 .text-overlay {
   position: absolute;
   top: 50%;
@@ -55,54 +62,56 @@
   transform: translate(-50%, -50%);
   color: rgb(254, 247, 247);
 }
+
 .icon-container {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .banner-section {
-  max-width: 1440px;
-  height: 700px;
-}
-.text-ui {
   position: absolute;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: repeat(3, minmax(auto, auto));
+  width: 100%;
+  bottom: 0;
+}
+
+.banner__section--decris {
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+}
+
+.iphone {
+  display: flex;
+  bottom: 0;
+}
+
+.text-ui {
   display: flex;
   color: var(--color-base);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-  font-family: myFont;
+  font-family: var(--font-family-primary);
   font-size: 18px;
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-default);
   letter-spacing: 1px;
-  margin-left: 233px;
-  margin-top: 69px;
+  inset: 0;
+  margin-left: 30%;
+  margin-right: none;
 }
-h1 {
-  position: absolute;
-  color: var(--color-primary);
-  text-align: center;
-  font-family: Roboto;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 2px;
-  margin-left: 248px;
-  margin-top: 200px;
-}
-.banner-decris {
-  position: absolute;
-  width: 427px;
-  height: 155px;
+.banner-title {
   display: flex;
+  inset: 0;
   flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-  margin-top: 300px;
-  margin-left: 230px;
-  flex-shrink: 0;
+  margin-left: 30%;
+  margin-top: 10%;
+  height: 400px;
+  width: 55%;
 }
 .header-title {
   color: var(--color-base);
@@ -111,37 +120,29 @@ h1 {
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
   line-height: 36px;
+  margin-top:30%;
 }
-.iphone-container {
+.banner-content {
   display: flex;
-  position: relative;
-  margin-left: 840px;
-  margin-top: 10px;
+  color: var(--color-base);
 }
-.iphone-screen{
-  width: 312px;
-  height: 460px;
-  flex-shrink: 0;
+h1 {
   position: absolute;
-  top: 90px;
-  left: 25px;
-  z-index: 1;
-}
-.iphone{
-  width: 358px;
-  height: 551px;
-  flex-shrink: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
+  display: flex;
+  color: var(--color-primary);
+  font-size: 64px;
+  font-style: var(--font-style-default);
+  font-weight: var(--font-weight-primary);
+  line-height: var(--line-height-default);
+  letter-spacing: 2px;
 }
 .app {
-  position: relative;
   display: flex;
-  width: 255px;
-  margin-top: 600px;
-  margin-left: 250px;
+  width: 270px;
+  height: 50px;
+  bottom: 0;
+  margin-left: 30%;;
+  gap: 50px;
 }
 .app-store-img {
   width: 135px;
@@ -149,6 +150,7 @@ h1 {
   flex-shrink: 0;
   gap: 20px;
 }
+
 .google-img {
   width: 135px;
   height: 40px;
