@@ -2,15 +2,15 @@
   font-family: var(--font-family-primary);
   font-size: var(--font-size-base);
   font-style: var(--font-style-default);
-  font-weight: var(--font-weight-primaryt);
+  font-weight: var(--font-weight-primary);
   line-height: var(--line-height-base);
 }
 .title-h2 {
   font-family: var(--font-family-primary);
-  font-style: var(--font-style);
-  font-weight: var(--font-weight);
-  font-weight: 400;
+  font-style: var(--font-style-default);
+  font-weight: var(--font-weight-primary);
   line-height: 48px;
+  letter-spacing: -1.6px;
 }
 .text-font {
   font-family: var(--font-family-primary);

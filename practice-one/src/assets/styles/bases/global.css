@@ -3,3 +3,11 @@
   margin: 0 auto;
   inset: 0;
 }
+
+.container__main {
+  position: absolute;
+  width: 1440px;
+  margin: 0 auto;
+  margin-top: 748px;
+  inset: 0;
+}
