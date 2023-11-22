@@ -6,18 +6,21 @@
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-base);
 }
+
 .card-img {
   width: 128px;
   height: 128px;
   flex-shrink: 0;
   stroke-width: 2px;
 }
+
 .card-name {
   font-size: 24px;
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
   line-height: var(--default-line-height);
 }
+
 .card-subs {
   background-color: var(--color-base);
   color: var(--color-secondary);
@@ -26,6 +29,7 @@
   font-weight: var(--font-weight-primary);
   line-height: 26px;
 }
+
 .card-subs-header {
   width: 262px;
   height: 156px;
@@ -36,6 +40,7 @@
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-default);
 }
+
 .card-price {
   width: 52px;
   height: 78px;
@@ -50,6 +55,7 @@
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-default);
 }
+
 .card-dollar {
   display: flex;
   width: 28px;

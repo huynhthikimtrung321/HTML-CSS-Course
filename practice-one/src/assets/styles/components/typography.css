@@ -5,6 +5,7 @@
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-base);
 }
+
 .title-h2 {
   font-family: var(--font-family-primary);
   font-style: var(--font-style-default);
@@ -12,6 +13,4 @@
   font-weight: 400;
   line-height: 48px;
 }
-.text-font {
-  font-family: var(--font-family-primary);
-}
+

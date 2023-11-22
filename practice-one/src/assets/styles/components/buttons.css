@@ -10,11 +10,13 @@
   flex-shrink: 0;
   text-transform: uppercase;
 }
+
 .outline-button {
   background-color: var(--color-base);
   border: 2px solid var(--color-secondary);
   color: var(--color-secondary);
 }
+
 .filled-button {
   padding: 15px 50px;
   background-color: var(--color-primary);
