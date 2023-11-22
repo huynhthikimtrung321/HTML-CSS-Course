@@ -1,0 +1,73 @@
+.advantages__section {
+  background-color: var(--font-size-base);
+  height: 600px;
+  width: 100%;
+}
+
+.advantages__section--title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.advantages__title {
+  margin: 0;
+  color: var(--color-secondary);
+  margin-top: 5%;
+}
+
+.advantages__descrip {
+  display: flex;
+  margin: 0;
+  height: 24px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--color-secondary);
+  text-align: center;
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-base);
+  font-style: var(--font-style-default);
+  font-weight: var(--font-weight-primary);
+  line-height: 24px;
+}
+
+.advantages__section--content {
+  display: grid;
+  grid-template-columns: 205px 205px 205px;
+  margin-top: 4%;
+  grid-column-gap: 180px;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantage__content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantage__content--percent {
+  position: absolute;
+  color: var(--color-secondary);
+  font-family:var(--font-family-primary);
+  font-size: 64px;
+  font-style: var(--font-style-default);
+  font-weight: var(--font-weight-primary);
+  line-height: 42px;
+  letter-spacing: -1.6px;
+}
+.advantage__content--percent::after {
+  content: attr(data-decimal);
+  font-size: 32px;
+  letter-spacing: -0.8px;
+}
+.advantage__content--descrip{
+
+}
+.circle-descrip {
+  text-align-last: center;
+}
