@@ -13,7 +13,7 @@
   flex-direction: column;
 }
 
-.iphone {
+.banner__section-iphone {
   display: flex;
   bottom: 0;
 }
