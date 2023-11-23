@@ -1,0 +1,17 @@
+:root {
+  --color-primary:  #EBCB80;
+  --color-secondary: #4b4b4b;
+  --color-base: #FFF;
+  /*-----------------------------------------*\
+  #SET TYPOGRAPHY
+\*-----------------------------------------*/
+  --font-size-base: 16px;
+  --line-height-base: 24px;
+  --font-size-card: 18px;
+  --font-size-heading: 44px;
+  --line-height-heading: 48px;
+  --font-weight-primary: 400;
+  --font-style-default: normal;
+  --font-family-primary: myFont;
+  --line-height-default: normal;
+}
