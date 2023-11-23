@@ -1,0 +1,72 @@
+.header__section {
+  position: absolute;
+  background-image: url(/practice-one/src/assets/images/Background-header.png);
+  height: 768px;
+  flex-shrink: 0;
+}
+
+.header__section--navbar {
+  display: flex;
+  width: 1140px;
+  height: 45px;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-right: 152px;
+  margin-left: 152px;
+}
+
+.header__logo {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  font-style: var(--font-style-default);
+  font-weight: var(--font-weight-primary);
+  line-height: var(--line-height-default);
+  letter-spacing: var(--letter-spacing-max);
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin-top: 5px;
+  gap: 70px;
+}
+
+.nav__list--content {
+  color: var(--color-base);
+  text-decoration: none;
+  align-items: center;
+  font-size: var(--font-size-m);
+  font-style: var(--font-style-default);
+  font-weight: var(--font-weight-primary);
+  line-height: var(--line-height-default);
+  letter-spacing: var(--letter-spacing-medium);
+}
+
+.nav__list--icon {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.icon-search {
+  width: 24.02px;
+  height: 31.808px;
+  flex-shrink: 0;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--color-base)
+}
+
+.list__icon--container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
