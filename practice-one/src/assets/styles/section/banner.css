@@ -7,7 +7,7 @@
   bottom: 0;
 }
 
-.banner__section--decris {
+.banner__section--decristion {
   display: flex;
   height: 600px;
   flex-direction: column;
@@ -32,6 +32,7 @@
   margin-left: 30%;
   margin-right: none;
 }
+
 .banner__content {
   display: flex;
   inset: 0;
@@ -41,6 +42,7 @@
   height: 400px;
   width: 55%;
 }
+
 .banner__content--title {
   color: var(--color-base);
   font-family: var(--font-family-primary);
@@ -50,10 +52,12 @@
   line-height: var(--line-height-medium);
   margin-top:30%;
 }
-.banner__content--descrip {
+
+.banner__content--decristion {
   display: flex;
   color: var(--color-base);
 }
+
 .banner__section-app-img {
   display: flex;
   width: 270px;
@@ -62,6 +66,7 @@
   margin-left: 30%;;
   gap: 50px;
 }
+
 .app-store-img {
   width: 135px;
   height: 40px;
