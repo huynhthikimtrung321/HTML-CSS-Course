@@ -1,12 +1,12 @@
 .btn {
-  padding: 15px 50px;
+  padding: 10px 55px;
   text-align: center;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-s);
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-default);
-  letter-spacing: 1px;
-  border-radius: 10px;
+  letter-spacing: var(--letter-spacing-medium);
+  border-radius: 35px;
   flex-shrink: 0;
   text-transform: uppercase;
 }
@@ -18,8 +18,7 @@
 }
 
 .filled-button {
-  padding: 15px 50px;
   background-color: var(--color-primary);
-  border-radius: 10px;
+  border-radius: 35px;
   color: var(--color-secondary);
 }
