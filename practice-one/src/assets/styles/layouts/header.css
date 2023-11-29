@@ -1,6 +1,6 @@
 .header__section {
   position: absolute;
-  background-image: url(/practice-one/src/assets/images/Background-header.png);
+  background-image: url(C:/html-css-training/practice-one/src/assets/images/Background-header.png);
   height: 768px;
   flex-shrink: 0;
 }
