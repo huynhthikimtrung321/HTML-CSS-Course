@@ -11,6 +11,7 @@
   display: flex;
   height: 600px;
   flex-direction: column;
+  align-items: center;
 }
 
 .banner__section-iphone {
@@ -29,7 +30,7 @@
   line-height: var(--line-height-default);
   letter-spacing: var(--letter-spacing-medium);
   inset: 0;
-  margin-left: 30%;
+  width: 60%;
   margin-right: none;
 }
 
@@ -37,7 +38,6 @@
   display: flex;
   inset: 0;
   flex-direction: column;
-  margin-left: 30%;
   margin-top: 10%;
   height: 400px;
   width: 55%;
@@ -60,10 +60,9 @@
 
 .banner__section-app-img {
   display: flex;
-  width: 270px;
+  width: 50%;
   height: 50px;
   bottom: 0;
-  margin-left: 30%;;
   gap: 50px;
 }
 
