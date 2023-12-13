@@ -59,3 +59,7 @@
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-base);
 }
+
+input::placeholder {
+  padding: 5px;
+}

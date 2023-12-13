@@ -45,6 +45,11 @@
   text-transform: uppercase;
   border: none;
 }
+
+.btn-register:hover {
+  transform: scale(1.1);
+}
+
 .cta__form--input {
   display: flex;
   flex-direction: column;
