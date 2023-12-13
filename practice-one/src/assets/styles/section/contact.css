@@ -75,9 +75,24 @@
   justify-content: center;
   align-items: center;
 }
+
 .contact__specific-address {
   color: var(--color-base);
+  text-decoration: none;
 }
+
+.contact__specific-address:hover {
+  color: var(--color-primary);
+}
+
+textarea::placeholder {
+  padding: 5px;
+}
+
 .contact__button {
   border: none;
+}
+
+.contact__button:hover{
+  transform: scale(1.1);
 }

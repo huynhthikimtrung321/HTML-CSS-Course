@@ -1,7 +1,8 @@
 .header__section {
   position: absolute;
   background-image: url('../../images/Background-header.png');
-  height: 768px;
+  width: 1440px;
+  height: auto;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
@@ -44,6 +45,10 @@
   letter-spacing: var(--letter-spacing-medium);
 }
 
+.nav__list--content:hover {
+  color: var(--color-primary);
+}
+
 .nav__list--icon {
   display: flex;
   align-items: center;
@@ -51,17 +56,13 @@
 }
 
 .icon-search {
-  width: 24.02px;
-  height: 31.808px;
+  width: auto;
+  height: auto;
   flex-shrink: 0;
 }
 
-.text-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: var(--color-base)
+.icon-search:hover {
+  transform: scale(1.2);
 }
 
 .list__icon--container {
@@ -71,3 +72,14 @@
   align-items: center;
 }
 
+.custom-select {
+  width: 5rem;
+  height: auto;
+  border-radius: 20px;
+  border: 1px solid var(--color-base);
+  text-align: center;
+  color: var(--color-base);
+  background: black;
+  appearance: none;
+  padding: 5px 0;
+}

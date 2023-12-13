@@ -30,16 +30,12 @@
           </li>
           <div class="nav__list--icon">
             <img src="assets/images/icons/search-icon.png" alt="icon search" class="icon-search" />
-            <div class="list__icon--container">
-              <svg xmlns="http://www.w3.org/2000/svg" width="69" height="36" viewBox="0 0 69 36" fill="none">
-                <path
-                  d="M1 18C1 8.61116 8.61116 1 18 1H51C60.3888 1 68 8.61116 68 18C68 27.3888 60.3888 35 51 35H18C8.61116 35 1 27.3888 1 18Z"
-                  stroke="white" stroke-width="2" />
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M53 22L49 16H57L53 22Z" fill="white" />
-              </svg>
-              <span class="text-overlay">US</span>
+            <div class="nav__language">
+              <select class="custom-select">
+                <option value="USA">US</option>
+                <option value="VIETNAM">VIE</option>
+              </select>
             </div>
-          </div>
         </ul>
       </nav>
       <!--START BANNER-->
@@ -59,13 +55,14 @@
             </p>
           </div>
           <div class="banner__section-app-img">
-            <img src="assets/images/appstore-badge.png" alt="app store" class="app-store-img" />
-            <img src="assets/images/google-play-badge.png" alt="google play" class="google-img" />
+            <a href="javascript:void(0)"><img src="assets/images/appstore-badge.png" alt="app store"
+                class="app-store-img" /></a>
+            <a href="javascript:void(0)"><img src="assets/images/google-play-badge.png" alt="google play"
+                class="google-img" /></a>
           </div>
         </div>
         <div class="banner__section-iphone">
-          <img src="assets/images/iphone-app.png" alt="iphone app">
-          <!-- <img src="/practice-one/src/assets/images/iphone-app.png" alt="iphone app"> -->
+          <img src="assets/images/iphone-app.png" alt="iphone app" class="iphone-app-img">
         </div>
       </section>
       <!--END BANNER SECTION-->
@@ -80,10 +77,12 @@
         </div>
         <div class="advantages__section--content">
           <div class="advantages__main--content">
-            <div class="advantages__main--content-img">
-              <img src="assets/images/circle-1.png" alt="circle 74,98"
-                class="advantages__content-img">
-              <span class="advantage__content--percent" data-decimal=",98">74</span>
+            <div class="advantages__content-item">
+              <div class="advantages__circle-1">
+                <div class="cirlce">
+                  <p class="percent--integer">74<span class="percent--decimal">,98</span></p>
+                </div>
+              </div>
             </div>
             <div class="advantages__main--content">
               <p class="advantages__content--title">TOTAL CONVERSION</p>
@@ -91,36 +90,36 @@
                 perception of cosmetic surgery.</p>
             </div>
           </div>
-
           <div class="advantages__main--content">
-
-            <div class="advantages__main--content-img">
-              <img src="assets/images/circle-2.png" alt="circle 39,75"
-                class="advantages__content-img">
-              <span class="advantage__content--percent" data-decimal=",75">39</span>
+            <div class="advantages__content-item">
+              <div class="advantages__circle-2">
+                <div class="cirlce">
+                  <p class="percent--integer">39<span class="percent--decimal">,75</span></p>
+                </div>
+              </div>
             </div>
             <div class="advantages__main--content">
-              <p class="advantages__content--title">FREE DOWNOADS </p>
+              <p class="advantages__content--title">FREE DOWNOADS</p>
               <p class="advantages__content--desciption">Can you imagine what we will be downloading in another twenty
                 years?</p>
             </div>
-
           </div>
 
           <div class="advantages__main--content">
-            <div class="advantages__main--content-img">
-              <img src="assets/images/circle-3.png" alt="circle 81,15"
-                class="advantages__content-img">
-              <span class="advantage__content--percent" data-decimal=",15">81</span>
+            <div class="advantages__content-item">
+              <div class="advantages__circle-3">
+                <div class="cirlce">
+                  <p class="percent--integer">81<span class="percent--decimal">,15</span></p>
+                </div>
+              </div>
             </div>
             <div class="advantages__main--content">
               <p class="advantages__content--title">UNIQUE VISITORS</p>
-              <p class="advantages__content--desciption ">WordPress, the premier free open-source blogging utility, has
+              <p class="advantages__content--desciption">WordPress, the premier free open-source blogging utility, has
                 gone through several upgrades in its life.</p>
             </div>
           </div>
 
-        </div>
       </section>
       <!--END ADVANTAGES-->
 
@@ -131,7 +130,7 @@
         </div>
         <div class="testimonials__section--content">
           <div class="testimonials__icon-prev">
-            <img src="assets/images/prev.png" alt="prev-testimonials-img" class="testimonials_img">
+            <a href=""><img src="assets/images/prev.png" alt="prev-testimonials-img" class="testimonials_img"></a>
           </div>
           <span class="testimonials__description text-font">Businesses at present had creatively generated effective
             advertising
@@ -139,7 +138,7 @@
             visual media that includes the television and radios and the print media that cover the newspaper and
             campaign materials like the posters, brochures, business cards, flyers and many more.</span>
           <div class="testimonials__icon-next">
-            <img src="assets/images/next.png" alt="next-testimonials-img" class="testimonials_img">
+            <a href=""><img src="assets/images/next.png" alt="next-testimonials-img" class="testimonials_img"></a>
           </div>
         </div>
         <div class="testimonials__section--info">
@@ -166,50 +165,88 @@
               cartridge market. The market today is approximately a twenty billion dollar business.</p>
           </div>
         </div>
-        <div class="project__section--contents">
-          <div class="project__content-thumb">
-            <img src="assets/images/thumb-1.png" alt="thump app image"
-              class="project__content-thumb-img">
+        <div class="project__contents">
+          <div class="project__content--items">
+              <div class="content--items-img">
+                <img src="assets/images/thumb-1.png" alt="thump app image"
+                class="thumb-img">
+            </div>
             <div class="project__thumb--description">
               <p class="thumb-title">APP MAINTENANCE</p>
               <p class="project__thumb-author">Lida Morrison, Nettie Burke</p>
             </div>
-            <button class="btn outline-button project__thumb--button"> review</button>
+            <button class="btn outline-button project__button"> review</button>
+            <div class="project__thumb-view">
+              <img src="assets/images/icons/view-max.png" alt="view project" class="view-max-icon">
+              <div class="project__thumb-view-info">
+                <img src="assets/images/icons/view-max.png" alt="quantity view project" class="quantity-view-icon">
+                <div class="viewer-quantity">
+                  <p class="view">9131</p>
+                  <p class="view">2</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="project__content-thumb">
-            <img src="assets/images/thumb.png" alt="thump FTA key image"
-              class="project__content-thumb-img">
+          <div class="project__content--items">
+              <div class="content--items-img">
+                <img src="assets/images/thumb-2.png" alt="thump FTA key image"
+                class="thumb-img">
+            </div>
             <div class="project__thumb--description">
               <p class="thumb-title">FTA KEYS</p>
               <p class="project__thumb-author">Ivan Alexander, Steven Soto, Clifford Hammond </p>
             </div>
-            <button class="btn outline-button project__thumb--button project__button-view"> review</button>
+            <button class="btn outline-button project__button"> review</button>
             <div class="project__thumb-view">
-              <img src="assets/images/icons/view-max.png" alt="view project"> <br>
+              <img src="assets/images/icons/view-max.png" alt="view project" class="view-max-icon">
               <div class="project__thumb-view-info">
-                <img src="assets/images/icons/view-max.png" alt="quantity view project">
+                <img src="assets/images/icons/view-max.png" alt="quantity view project" class="quantity-view-icon">
                 <div class="viewer-quantity">
                   <p class="view">9131</p>
+                  <p class="view">2</p>
                 </div>
               </div>
             </div>
-
           </div>
-          <div class="project__content-thumb">
-            <img src="assets/images/thumb-3.png" alt="thump smart watch image">
+          <div class="project__content--items">
+              <div class="content--items-img">
+                <img src="assets/images/thumb-3.png" alt="thump smart watch image" class="thumb-img">
+              </div>
             <div class="project__thumb--description">
               <p class="thumb-title">SMART WATCH</p>
               <p class="project__thumb-author">Trevor James, Carl Stevenson</p>
             </div>
-            <button class="btn outline-button project__thumb--button"> review</button>
+            <button class="btn outline-button project__button"> review</button>
+            <div class="project__thumb-view">
+              <img src="assets/images/icons/view-max.png" alt="view project" class="view-max-icon">
+              <div class="project__thumb-view-info">
+                <img src="assets/images/icons/view-max.png" alt="quantity view project" class="quantity-view-icon">
+                <div class="viewer-quantity">
+                  <p class="view">9131</p>
+                  <p class="view">2</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="project__content-thumb">
-            <img src="assets/images/thumb-4.png" alt="thump watch apps image">
+          <div class="project__content--items">
+              <div class="content--items-img">
+                <img src="assets/images/thumb-4.png" alt="thump watch apps image" class="thumb-img">
+              </div>
             <div class="project__thumb--description">
               <p class="thumb-title">WATCH APPS</p>
-              <p class="project__thumb-author ">Glen Snyder, Andrew Goodwin, Lida Morrison </p>
+              <p class="project__thumb-author text-font">Glen Snyder, Andrew Goodwin, Lida Morrison </p>
             </div>
-            <button class="btn outline-button project__thumb--button">review</button>
+            <button class="btn outline-button project__button"> review</button>
+            <div class="project__thumb-view">
+              <img src="assets/images/icons/view-max.png" alt="view project" class="view-max-icon">
+              <div class="project__thumb-view-info">
+                <img src="assets/images/icons/view-max.png" alt="quantity view project" class="quantity-view-icon">
+                <div class="viewer-quantity">
+                  <p class="view">9131</p>
+                  <p class="view">2</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -277,8 +314,7 @@
           </div>
         </div>
         <div class="review__section--footer">
-          <img src="assets/images/dotnav-review.png" alt="dotnav review"
-            class="review__section--footer-img">
+          <img src="assets/images/dotnav-review.png" alt="dotnav review" class="review__section--footer-img">
         </div>
       </section>
       <!--END REVIEW-->
@@ -388,8 +424,9 @@
               <li>
                 <img src="assets/images/icons/location-contact.png" alt="">
               </li>
-              <li class="text-normal contact__specific-address">
-                2300 W Arbutus Dr Citrus Springs, FL 34434, USA
+              <li>
+                <a href="javascript:void(0)" class="text-normal contact__specific-address">2300 W Arbutus Dr Citrus
+                  Springs, FL 34434, USA</a>
               </li>
             </ul>
           </div>
@@ -398,8 +435,9 @@
               <li>
                 <img src="assets/images/icons/mail-contact.png" alt="">
               </li>
-              <li class="text-normal contact__specific-address">
-                contact@hofmannui.net
+              <li>
+                <a href="mailto:your-email@example.com"
+                  class="text-normal contact__specific-address">contact@hofmannui.net</a>
               </li>
             </ul>
           </div>
@@ -409,17 +447,16 @@
                 <img src="assets/images/icons/phone-contact.png" alt="">
               </li>
               <li class="text-normal contact__specific-address">
-                952-775-6021
+                <a href="tel:+1234567890" class="text-normal contact__specific-address">952-775-6021</a>
               </li>
             </ul>
           </div>
         </div>
       </section>
       <!-- START CONTACT -->
-
     </main>
 
-    <!-- START FOOTER -->
+    <!-- END FOOTER -->
     <footer class="footer__section  container ">
       <div class="footer__section--content">
         <div class="footer__main-content">
@@ -440,8 +477,7 @@
           <ul class="footer__list">
             <li class="footer-list-title">PRODUCTS</li>
             <li>
-              <img src="assets/images/separator-footer.png" alt="separator-footer"
-                class="footer__title-img">
+              <img src="assets/images/separator-footer.png" alt="separator-footer" class="footer__title-img">
             </li>
             <li><a href="javascript:void(0)" class="footer__list-link text-normal">UI Kits</a></li>
             <li><a href="javascript:void(0)" class="footer__list-link text-normal">Icons</a></li>
@@ -481,16 +517,16 @@
           <p class="footer__info-mail text-normal">Created by Goldenfox — okodesign.net</p>
         </div>
         <div class="footer__contact--social">
-          <a href="javascript:void(0)"><img src="assets/images/linkedin-footer.png"
-              alt="linkedin footer img" class="footer__social--img"></a>
-          <a href="javascript:void(0)"><img src="assets/images/google-plus-footer.png"
-              alt="google plus footer img" class="footer__social--google-img"></a>
-          <a href="javascript:void(0)"><img src="assets/images/twitter-footer.png"
-              alt="twitter footer img" class="footer__social--img"></a>
-          <a href="javascript:void(0)"><img src="assets/images/facebook-footer.png"
-              alt="facebook footer img" class="footer__social--img"></a>
-          <a href="javascript:void(0)"><img src="assets/images/instagram-footer.png"
-              alt="instagram footer img" class="footer__social--img"></a>
+          <a href="javascript:void(0)"><img src="assets/images/linkedin-footer.png" alt="linkedin footer img"
+              class="footer__social--img"></a>
+          <a href="javascript:void(0)"><img src="assets/images/google-plus-footer.png" alt="google plus footer img"
+              class="footer__social--google-img"></a>
+          <a href="javascript:void(0)"><img src="assets/images/twitter-footer.png" alt="twitter footer img"
+              class="footer__social--img"></a>
+          <a href="javascript:void(0)"><img src="assets/images/facebook-footer.png" alt="facebook footer img"
+              class="footer__social--img"></a>
+          <a href="javascript:void(0)"><img src="assets/images/instagram-footer.png" alt="instagram footer img"
+              class="footer__social--img"></a>
         </div>
       </div>
     </footer>
