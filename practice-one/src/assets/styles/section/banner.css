@@ -68,8 +68,8 @@
   display: flex;
   width: 50%;
   height: 50px;
-  bottom: 0;
   gap: 50px;
+  padding-bottom: 40px;
 }
 
 .app-store-img {
