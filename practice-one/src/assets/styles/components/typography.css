@@ -6,7 +6,7 @@
   line-height: var(--line-height-base);
 }
 
-.title-h2 {
+.title-default {
   font-family: var(--font-family-primary);
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
