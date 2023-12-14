@@ -7,7 +7,7 @@
   bottom: 0;
 }
 
-.banner__section--decristion {
+.banner__decristion {
   display: flex;
   height: 600px;
   flex-direction: column;
@@ -18,6 +18,7 @@
   width: 358px;
   height: 551px;
   align-self: end;
+  margin: 0;
 }
 
 .iphone-app-img{
@@ -49,7 +50,7 @@
   width: 55%;
 }
 
-.banner__content--title {
+.banner__title {
   color: var(--color-base);
   font-family: var(--font-family-primary);
   font-size: var(--line-height-base);
@@ -59,12 +60,12 @@
   margin: 0;
 }
 
-.banner__content--decristion {
+.banner__text {
   display: flex;
   color: var(--color-base);
 }
 
-.banner__section-app-img {
+.banner__app-links {
   display: flex;
   width: 50%;
   height: 50px;
@@ -72,20 +73,20 @@
   padding-bottom: 40px;
 }
 
-.app-store-img {
+.banner__app-links--app-store {
   width: 135px;
   height: 40px;
   flex-shrink: 0;
   gap: 20px;
 }
 
-.google-img {
+.banner__app-links--google-play {
   width: 135px;
   height: 40px;
   flex-shrink: 0;
 }
 
-.app-store-img:hover,
-.google-img:hover {
+.banner__app-links--app-store:hover,
+.banner__app-links--google-play:hover {
   transform: scale(1.1);
 }
