@@ -10,7 +10,7 @@
   gap: 100px;
 }
 
-.review__section--heading {
+.review__header{
   font-size: var(--font-size-max);
   color: var(--color-secondary);
   margin: 0;
@@ -39,7 +39,7 @@
   color: var(--color-base);
 }
 
-.card--qoutes {
+.review__card--qoutes {
   font-size: var(--font-size-giant);
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
@@ -48,7 +48,7 @@
   padding-top: 10px;
 }
 
-.review__card-descrip {
+.review__card__desription {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,7 +63,7 @@
   flex-shrink: 0;
 }
 
-.card-content {
+.review__card__content {
   display: flex;
   flex-direction: column;
   width: 410px;
@@ -87,7 +87,7 @@
   height: auto;
 }
 
-.review__section--footer {
+.review__footer {
   margin-top: 20px;
 }
 
