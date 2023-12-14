@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  background-color:  var( --color-rare);
+  background-color: var(--color-rare);
 }
 
 .pricing__section--content {
@@ -47,12 +47,41 @@
   box-shadow: 0px 5px 10px var(--color-secondary);
 }
 
-.pricing__card--img {
+.pricing__card--background-1 {
   position: relative;
+  background-image: url('../../images/card-pricing-1.png');
+  width: 262px;
+  height: 156px;
+  object-fit: cover;
+}
+
+.pricing__card--background-2 {
+  position: relative;
+  background-image: url('../../images/card-pricing-2.png');
+  width: 262px;
+  height: 156px;
+  object-fit: cover;
+}
+
+.pricing__card--background-3{
+  position: relative;
+  background-image: url('../../images/card-pricing-3.png');
+  width: 262px;
+  height: 156px;
+  object-fit: cover;
+}
+
+.pricing__card--background-4{
+  position: relative;
+  background-image: url('../../images/card-pricing-4.png');
+  width: 262px;
+  height: 156px;
+  object-fit: cover;
 }
 
 .pricing__card--img-title {
   position: absolute;
+
 }
 
 .pricing__card--description {
@@ -86,7 +115,7 @@
   z-index: 1;
   text-align: center;
   color: var(--color-base);
-  font-size: var( --font-size-s);
+  font-size: var(--font-size-s);
   display: flex;
   flex-direction: column;
   justify-content: center;
