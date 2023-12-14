@@ -1,12 +1,12 @@
 .text-normal {
   font-family: var(--font-family-primary);
-  font-size: var(--base-font-size);
+  font-size: var(--font-size-s);
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-base);
 }
 
-.title-h2 {
+.title-default {
   font-family: var(--font-family-primary);
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);

@@ -9,13 +9,13 @@
   background-color: var(--color-rare);
 }
 
-.pricing__section--content {
+.pricing__header {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.pricing__section--card {
+.pricing__card__list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-rows: auto;
@@ -23,7 +23,7 @@
   place-items: center;
 }
 
-.pricing__content--title {
+.pricing__title {
   color: var(--color-secondary);
   text-align: center;
   font-size: var(--font-size-max);
@@ -32,10 +32,9 @@
   line-height: var(--line-height-heading);
   letter-spacing: var(--letter-spacing-min);
   margin-top: 50px;
-
 }
 
-.pricing__card--content {
+.pricing__card {
   width: 262px;
   height: 372px;
   border: 2px solid var(--font-family-secondary);
@@ -63,7 +62,7 @@
   object-fit: cover;
 }
 
-.pricing__card--background-3{
+.pricing__card--background-3 {
   position: relative;
   background-image: url('../../images/card-pricing-3.png');
   width: 262px;
@@ -71,7 +70,7 @@
   object-fit: cover;
 }
 
-.pricing__card--background-4{
+.pricing__card--background-4 {
   position: relative;
   background-image: url('../../images/card-pricing-4.png');
   width: 262px;
@@ -81,10 +80,9 @@
 
 .pricing__card--img-title {
   position: absolute;
-
 }
 
-.pricing__card--description {
+.pricing__card__description {
   width: 190px;
   height: 110px;
   display: flex;
@@ -95,7 +93,12 @@
   color: var(--color-secondary);
   text-align: center;
   margin: 0;
-  margin-top: 25px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
 }
 
 .pricing__card--button {
@@ -106,7 +109,7 @@
   justify-content: center;
 }
 
-.pricing__card--img-content {
+.pricing__card__header {
   height: 150px;
   position: absolute;
   top: 50%;
@@ -120,10 +123,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
-.pricing__img-title {
+.pricing__card__title {
   display: flex;
   width: 130px;
   height: 27px;
@@ -153,7 +155,7 @@
 }
 
 .pricing__card-price::before {
-  content: "$";
+  content: '$';
   color: var(--color-base);
   text-align: center;
   font-size: var(--font-size-l);
@@ -164,12 +166,11 @@
   margin-right: 5px;
 }
 
-.pricing-btn {
+.pricing__btn {
   border: none;
   background-color: var(--color-base);
 }
 
-.pricing__card--content:hover .pricing-btn {
+.pricing__card:hover .pricing__btn {
   background-color: var(--color-primary);
-
 }

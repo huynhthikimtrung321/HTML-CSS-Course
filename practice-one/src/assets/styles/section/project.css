@@ -3,12 +3,12 @@
   height: auto;
 }
 
-.project__section--title {
+.project__section__header {
   display: flex;
   justify-content: center;
 }
 
-.project__title-description {
+.project__header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,6 +29,12 @@
   justify-content: center;
   flex-shrink: 0;
   text-align-last: center;
+  color: var(--color-secondary);
+  text-align: center;
+  font-size: var(--font-size-s);
+  font-style: var(--font-style-default);
+  font-weight: var(--font-weight-primary);
+  line-height: var(--line-height-base);
 }
 
 .project__contents {
@@ -40,7 +46,7 @@
   margin: 50px 0;
 }
 
-.content--items-img {
+.content__items-img {
   border-radius: 50%;
   overflow: hidden;
   width: 262px;
@@ -54,18 +60,18 @@
   border-radius: 50%;
 }
 
-.project__thumb--description {
+.project__items__description {
   margin-top: 20px;
 }
 
-.project__thumb-view-info {
+.project__item-view-info {
   display: flex;
   align-items: center;
   margin-top: 48px;
   gap: 10px;
 }
 
-.project__thumb-view {
+.project__item-view {
   position: absolute;
   top: 41%;
   left: 50%;
@@ -73,7 +79,7 @@
   display: none;
 }
 
-.viewer-quantity {
+.project__viewer-quantity {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,13 +90,13 @@
   height: 11px;
 }
 
-.view {
+.project__view--count {
   margin: 0;
   text-align-last: center;
   color: var(--color-base);
 }
 
-.project__content--items {
+.project__items {
   position: relative;
   width: 262px;
   display: flex;
@@ -99,7 +105,8 @@
   align-items: center;
 }
 
-.project__thumb-author {
+.project__items--author
+ {
   height: 55px;
   text-align-last: center;
   color: var(--color-secondary);
@@ -107,24 +114,25 @@
   font-size: var(--font-size-s);
   font-style: var(font-style-default);
   font-weight: var(font-weight-primary);
-  line-height: var( --line-height-base);
+  line-height: var(--line-height-base);
 }
 
-.project__thumb-author::before {
-  content: "by";
+.project__items--author::before {
+  content: 'by';
   display: block;
-
 }
 
-.project__button{
+.project__button {
   margin-top: 20px;
 }
 
 .project__button:hover {
   background-color: var(--color-primary);
-  border: none;
+  border: 2px solid var(--color-base);
 }
 
-.project__content--items:hover .btn:hover+.project__thumb-view {
+.project__items:hover
+  .btn:hover
+  + .project__item-view {
   display: block;
 }

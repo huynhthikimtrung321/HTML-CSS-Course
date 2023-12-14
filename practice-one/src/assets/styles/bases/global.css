@@ -22,4 +22,6 @@ h1 {
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-default);
   letter-spacing: var(--letter-spacing-max);
+  padding-left: 15px;
+  margin-top: 0;
 }

@@ -2,7 +2,7 @@
   position: absolute;
   background-image: url('../../images/Background-header.png');
   width: 1440px;
-  height: auto;
+  height: 768px;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
@@ -27,7 +27,7 @@
   letter-spacing: var(--letter-spacing-max);
 }
 
-.nav-list {
+.header__nav__list {
   display: flex;
   list-style: none;
   margin-top: 5px;
@@ -82,4 +82,26 @@
   background: black;
   appearance: none;
   padding: 5px 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  z-index: 1;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid var(--color-base);
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  z-index: 2
+}
+
+.nav__language {
+  position: relative;
+  display: inline-block;
 }
