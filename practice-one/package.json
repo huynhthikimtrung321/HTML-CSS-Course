@@ -14,5 +14,8 @@
   },
   "devDependencies": {
     "parcel": "^2.10.3"
+  },
+  "@parcel/transformer-css": {
+    "errorRecovery": true
   }
 }
