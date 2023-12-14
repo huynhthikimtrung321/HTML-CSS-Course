@@ -169,6 +169,7 @@
 .pricing__btn {
   border: none;
   background-color: var(--color-base);
+  color: var(--color-secondary);
 }
 
 .pricing__card:hover .pricing__btn {

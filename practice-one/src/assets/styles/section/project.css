@@ -105,15 +105,14 @@
   align-items: center;
 }
 
-.project__items--author
- {
+.project__items--author{
   height: 55px;
   text-align-last: center;
   color: var(--color-secondary);
   text-align: center;
   font-size: var(--font-size-s);
-  font-style: var(font-style-default);
-  font-weight: var(font-weight-primary);
+  font-style: var(--font-style-default);
+  font-weight: var(--font-weight-primary);
   line-height: var(--line-height-base);
 }
 
