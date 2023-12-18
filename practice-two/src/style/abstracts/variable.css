@@ -40,6 +40,7 @@
   --color-border-primary:#E6E6E6;
   --color-border-secondary: #7D7D7D;
 
+  --boder-input: 5px;
 }
 
 @media (min-width: 768px) {
