@@ -2,7 +2,8 @@
 
 ## OVERVIEW
 
-This document provides the requirement for HTML CSS practice one.
+* This document provides the requirement for HTML CSS practice two.
+* Design: [figma](https://www.figma.com/file/sTgBkHgZrNsASOMT4Vgfvs/Hofmann?node-id=1%3A228&mode=dev)
 
 ## TECHNICAL STACKS
 
@@ -23,13 +24,13 @@ This document provides the requirement for HTML CSS practice one.
 
 ## TOOLS
 
-* [Chrom](https://www.google.com/chrome/)
+* [Chrome](https://www.google.com/chrome/)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Responsive Viewer](https://chromewebstore.google.com/detail/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en)
 
 ## TASK MANAGEMENT
 
-* [Trello](https://trello.com/b/RtJLG4xh/html-css-traning)
+* [Trello](https://trello.com/b/RtJLG4xh/html-css-training)
 
 ## GETTING STARTED
 
