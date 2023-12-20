@@ -1,4 +1,4 @@
-.title-normal {
+.heading-section {
   font-size: var(--font-size-lg);
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
@@ -14,7 +14,7 @@
 }
 
 @media (min-width: 768px) {
-  .title-normal {
+  .heading-section {
     font-size: var(--font-size-xlg);
     letter-spacing: var(--letter-spacing-2xs);
   }
@@ -25,8 +25,8 @@
     font-size: var(--font-size-base);
     line-height: var(--line-height-md);
   }
-  
-  .title-normal {
+
+  .heading-section {
     font-size: var(--font-size-xlg);
     line-height: var(--line-height-5xlg);
     letter-spacing: var(--letter-spacing-2xs);

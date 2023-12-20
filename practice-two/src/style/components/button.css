@@ -4,26 +4,24 @@
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-normal);
   letter-spacing: var(--letter-spacing-lg);
-  border-width: var(--border-btn-width-default);
-  border-style: var(--border-btn-style-default);
-  border-color: var(--color-border-secondary);
+  border: var(--border-btn-width-default) var(--border-btn-style-default) var(--color-border-secondary) ;
   border-radius: 30px;
   padding: 6px 45px;
   text-transform: uppercase;
   cursor: pointer;
 }
 
-.outline-button {
+.btn-base {
   background-color: var(--color-base);
   color: var(--color-secondary);
 }
 
-.filled-button-primary {
+.btn-primary {
   background-color: var(--color-primary);
   color: var(--color-secondary);
 }
 
-.filled-button-secondary {
+.btn-secondary {
   background-color: var(--color-secondary);
   color: var(--color-base);
 }
