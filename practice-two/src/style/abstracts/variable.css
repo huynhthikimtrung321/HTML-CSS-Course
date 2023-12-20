@@ -2,33 +2,34 @@
 :root {
   --font-size-base: 16px;
   --font-size-2xs: calc(11 / var(--font-size-base) * 1rem);
-  --font-size-1xs: calc(12 / var(--font-size-base) * 1rem);
-  --font-size-m: calc(18 / var(--font-size-base) * 1rem);
-  --font-size-l: calc(20 / var(--font-size-base) * 1rem);
-  --font-size-1xl: calc(32 / var(--font-size-base) * 1rem);
-  --font-size-2xl: calc(36 / var(--font-size-base) * 1rem);
-  --font-size-3xl: calc(64 / var(--font-size-base) * 1rem);
+  --font-size-xs: calc(12 / var(--font-size-base) * 1rem);
+  --font-size-md: calc(18 / var(--font-size-base) * 1rem);
+  --font-size-lg: calc(20 / var(--font-size-base) * 1rem);
+  --font-size-xlg: calc(32 / var(--font-size-base) * 1rem);
+  --font-size-2xlg: calc(36 / var(--font-size-base) * 1rem);
+  --font-size-3xlg: calc(64 / var(--font-size-base) * 1rem);
 
   --line-height-normal: normal;
   --line-height-base: calc(16 / var(--font-size-base * 1rem));
-  --line-height-1xs: calc(13 / var(--font-size-base * 1rem));
-  --line-height-s: calc(22.4 / var(--font-size-base * 1rem));
-  --line-height-m: calc(24 / var(--font-size-base * 1rem));
-  --line-height-l: calc(26 / var(--font-size-base * 1rem));
-  --line-height-1xl: calc(27 / var(--font-size-base * 1rem));
-  --line-height-2xl: calc(30 / var(--font-size-base * 1rem));
-  --line-height-3xl: calc(40 / var(--font-size-base * 1rem));
+  --line-height-xs: calc(13 / var(--font-size-base * 1rem));
+  --line-height-sm: calc(22.4 / var(--font-size-base * 1rem));
+  --line-height-md: calc(24 / var(--font-size-base * 1rem));
+  --line-height-lg: calc(26 / var(--font-size-base * 1rem));
+  --line-height-xlg: calc(27 / var(--font-size-base * 1rem));
+  --line-height-2xlg: calc(30 / var(--font-size-base * 1rem));
+  --line-height-3xlg: calc(40 / var(--font-size-base * 1rem));
 
-  --letter-spacing-1xs: -0.5px;
+  --letter-spacing-xs: -0.5px;
   --letter-spacing-2xs: -0.8px;
-  --letter-spacing-s: 0.375px;
-  --letter-spacing-m: 0.5px;
-  --letter-spacing-l: 0.8px;
+  --letter-spacing-sm: 0.375px;
+  --letter-spacing-md: 0.5px;
+  --letter-spacing-lg: 0.8px;
   --letter-spacing-normal: 1px;
-  --letter-spacing-1xl: 0.14px;
+  --letter-spacing-xlg: 0.14px;
 
   --font-weight-primary: 400;
   --font-style-default: normal;
+  
   --color-primary: #ebcb80;
   --color-secondary: #4b4b4b;
   --color-base: #fff;
@@ -37,6 +38,7 @@
   --color-border-primary: #e6e6e6;
   --color-border-secondary: #7d7d7d;
   --color-border-tertiary: #999;
+
   --border-btn-width-default: 2px;
   --border-btn-style-default: solid;
   --border-input-width-default: 1px;
@@ -46,18 +48,19 @@
 
 @media (min-width: 768px) {
   :root {
-    --letter-spacing-s: 0.1px;
-    --letter-spacing-m: 0.667px;
+    --letter-spacing-sm: 0.1px;
+    --letter-spacing-md: 0.667px;
   }
 }
 
 @media (min-width: 1440px) {
   :root {
-    --font-size-1xl: calc(44 / var(--font-size-base) * 1rem);
-    --line-height-3xl: calc(36 / var(--font-size-base * 1rem));
-    --line-height-4xl: calc(42 / var(--font-size-base * 1rem));
-    --line-height-5xl: calc(48 / var(--font-size-base * 1rem));
-    --letter-spacing-1xl: 1.997px;
+    --font-size-xlg: calc(44 / var(--font-size-base) * 1rem);
+
+    --line-height-3xlg: calc(36 / var(--font-size-base * 1rem));
+    --line-height-4xlg: calc(42 / var(--font-size-base * 1rem));
+    --line-height-5xlg: calc(48 / var(--font-size-base * 1rem));
+    --letter-spacing-xlg: 1.997px;
     --letter-spacing-2xs: -1.6px;
   }
 }
