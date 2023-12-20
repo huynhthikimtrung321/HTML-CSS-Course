@@ -1,0 +1,66 @@
+/* 1 rem is defined as 16px */
+:root {
+  --font-size-base: 16px;
+  --font-size-2xs: calc(11 / var(--font-size-base) * 1rem);
+  --font-size-xs: calc(12 / var(--font-size-base) * 1rem);
+  --font-size-md: calc(18 / var(--font-size-base) * 1rem);
+  --font-size-lg: calc(20 / var(--font-size-base) * 1rem);
+  --font-size-xlg: calc(32 / var(--font-size-base) * 1rem);
+  --font-size-2xlg: calc(36 / var(--font-size-base) * 1rem);
+  --font-size-3xlg: calc(64 / var(--font-size-base) * 1rem);
+
+  --line-height-normal: normal;
+  --line-height-base: calc(16 / var(--font-size-base * 1rem));
+  --line-height-xs: calc(13 / var(--font-size-base * 1rem));
+  --line-height-sm: calc(22.4 / var(--font-size-base * 1rem));
+  --line-height-md: calc(24 / var(--font-size-base * 1rem));
+  --line-height-lg: calc(26 / var(--font-size-base * 1rem));
+  --line-height-xlg: calc(27 / var(--font-size-base * 1rem));
+  --line-height-2xlg: calc(30 / var(--font-size-base * 1rem));
+  --line-height-3xlg: calc(40 / var(--font-size-base * 1rem));
+
+  --letter-spacing-xs: -0.5px;
+  --letter-spacing-2xs: -0.8px;
+  --letter-spacing-sm: 0.375px;
+  --letter-spacing-md: 0.5px;
+  --letter-spacing-lg: 0.8px;
+  --letter-spacing-normal: 1px;
+  --letter-spacing-xlg: 0.14px;
+
+  --font-weight-primary: 400;
+  --font-style-default: normal;
+  
+  --color-primary: #ebcb80;
+  --color-secondary: #4b4b4b;
+  --color-base: #fff;
+  --color-rare: #f6f6f6;
+
+  --color-border-primary: #e6e6e6;
+  --color-border-secondary: #7d7d7d;
+  --color-border-tertiary: #999;
+
+  --border-btn-width-default: 2px;
+  --border-btn-style-default: solid;
+  --border-input-width-default: 1px;
+  --border-input-style-default: solid;
+  --boder-input: 5px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --letter-spacing-sm: 0.1px;
+    --letter-spacing-md: 0.667px;
+  }
+}
+
+@media (min-width: 1440px) {
+  :root {
+    --font-size-xlg: calc(44 / var(--font-size-base) * 1rem);
+
+    --line-height-3xlg: calc(36 / var(--font-size-base * 1rem));
+    --line-height-4xlg: calc(42 / var(--font-size-base * 1rem));
+    --line-height-5xlg: calc(48 / var(--font-size-base * 1rem));
+    --letter-spacing-xlg: 1.997px;
+    --letter-spacing-2xs: -1.6px;
+  }
+}
