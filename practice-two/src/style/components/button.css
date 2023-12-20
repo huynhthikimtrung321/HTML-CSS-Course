@@ -28,6 +28,13 @@
   color: var(--color-base);
 }
 
+.form-input {
+  border-width: var(--border-input-width-default);
+  border-style: var(--border-input-style-default);
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
 @media (min-width: 1440px) {
   .btn {
     border-radius: 35px;
