@@ -1,0 +1,37 @@
+.btn {
+  font-size: var(--font-size-2xs);
+  font-style: var(--font-style-default);
+  font-weight: var(--font-weight-primary);
+  line-height: var(--line-height-normal);
+  letter-spacing: var(--letter-spacing-lg);
+  border-width: var(--border-btn-width-default);
+  border-style: var(--border-btn-style-default);
+  border-color: var(--color-border-secondary);
+  border-radius: 30px;
+  padding: 6px 45px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.outline-button {
+  background-color: var(--color-base);
+  color: var(--color-secondary);
+}
+
+.filled-button-primary {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+.filled-button-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-base);
+}
+
+@media (min-width: 1440px) {
+  .btn {
+    border-radius: 35px;
+    font-size: var(--font-size-base);
+    padding: 10px 55px;
+  }
+}
