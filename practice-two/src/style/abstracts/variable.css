@@ -1,6 +1,6 @@
 /* 1 rem is defined as 16px */
 :root {
-  --font-size-base: 16px;
+  --font-size-base: 16;
   --font-size-2xs: calc(11 / var(--font-size-base) * 1rem);
   --font-size-xs: calc(12 / var(--font-size-base) * 1rem);
   --font-size-md: calc(18 / var(--font-size-base) * 1rem);
@@ -10,14 +10,14 @@
   --font-size-3xlg: calc(64 / var(--font-size-base) * 1rem);
 
   --line-height-normal: normal;
-  --line-height-base: calc(16 / var(--font-size-base * 1rem));
-  --line-height-xs: calc(13 / var(--font-size-base * 1rem));
-  --line-height-sm: calc(22.4 / var(--font-size-base * 1rem));
-  --line-height-md: calc(24 / var(--font-size-base * 1rem));
-  --line-height-lg: calc(26 / var(--font-size-base * 1rem));
-  --line-height-xlg: calc(27 / var(--font-size-base * 1rem));
-  --line-height-2xlg: calc(30 / var(--font-size-base * 1rem));
-  --line-height-3xlg: calc(40 / var(--font-size-base * 1rem));
+  --line-height-base: calc(16 / var(--font-size-base) * 1rem);
+  --line-height-xs: calc(13 / var(--font-size-base) * 1rem);
+  --line-height-sm: calc(22.4 / var(--font-size-base) * 1rem);
+  --line-height-md: calc(24 / var(--font-size-base) * 1rem);
+  --line-height-lg: calc(26 / var(--font-size-base) * 1rem);
+  --line-height-xlg: calc(27 / var(--font-size-base) * 1rem);
+  --line-height-2xlg: calc(30 / var(--font-size-base) * 1rem);
+  --line-height-3xlg: calc(40 / var(--font-size-base) * 1rem);
 
   --letter-spacing-xs: -0.5px;
   --letter-spacing-2xs: -0.8px;
@@ -57,9 +57,9 @@
   :root {
     --font-size-xlg: calc(44 / var(--font-size-base) * 1rem);
 
-    --line-height-3xlg: calc(36 / var(--font-size-base * 1rem));
-    --line-height-4xlg: calc(42 / var(--font-size-base * 1rem));
-    --line-height-5xlg: calc(48 / var(--font-size-base * 1rem));
+    --line-height-3xlg: calc(36 / var(--font-size-base) * 1rem);
+    --line-height-4xlg: calc(42 / var(--font-size-base) * 1rem);
+    --line-height-5xlg: calc(48 / var(--font-size-base) * 1rem);
     --letter-spacing-xlg: 1.997px;
     --letter-spacing-2xs: -1.6px;
   }
