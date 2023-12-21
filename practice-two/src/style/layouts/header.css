@@ -1,0 +1,117 @@
+.header__section {
+  background-image: url("../../assets/images/background-header.png");
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
+  background-position: center;
+}
+
+.nav__list--icon {
+  display: none;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1440px) {
+  .header__logo {
+    color: var(--color-primary);
+    text-align: center;
+    font-size: var(--font-size-2xlg);
+    font-style: var(--font-weight-primary);
+    font-weight: var(--font-style-default);
+    line-height: var(--line-height-normal);
+    letter-spacing: var(--letter-spacing-xlg);
+    margin-left: 15%;
+  }
+
+  .header__section--navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+
+  .header__nav__list__item {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav__list--content {
+    color: var(--color-base);
+    font-size: var(--font-size-md);
+    font-style: var(--font-style-default);
+    font-weight: var(--font-weight-primary);
+    line-height: var(--line-height-normal);
+    letter-spacing: var(--letter-spacing-normal);
+  }
+
+  .header__nav__list {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-around;
+  }
+
+  .nav__list--content {
+    color: var(--color-base);
+    text-decoration: none;
+    align-items: center;
+    font-size: var(--font-size-m);
+    font-style: var(--font-style-default);
+    font-weight: var(--font-weight-primary);
+    line-height: var(--line-height-default);
+    letter-spacing: var(--letter-spacing-medium);
+  }
+
+  .nav__list--icon {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: -20px;
+  }
+
+  .custom-select {
+    width: 5rem;
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid var(--color-base);
+    text-align: center;
+    color: var(--color-base);
+    background: black;
+    appearance: none;
+    padding: 5px 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    z-index: 1;
+  }
+
+  .triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid var(--color-base);
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+
+  .nav__language {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+  }
+
+  .icon-search:hover {
+    transform: scale(1.2);
+  }
+
+  .nav__list--content:hover {
+    color: var(--color-primary);
+  }
+}
