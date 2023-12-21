@@ -22,11 +22,11 @@
     font-weight: var(--font-style-default);
     line-height: var(--line-height-normal);
     letter-spacing: var(--letter-spacing-xlg);
-    margin-left: 15%;
+    margin-left: 10%;
   }
 
   .navbar {
-    width: 100%;
+    width: 95%;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -54,7 +54,7 @@
     justify-content: space-around;
   }
 
-  .nav__list--content {
+  .item-content {
     color: var(--color-base);
     text-decoration: none;
     align-items: center;
@@ -111,7 +111,7 @@
     transform: scale(1.2);
   }
 
-  .nav__list--content:hover {
+  .item-content:hover {
     color: var(--color-primary);
   }
 }
