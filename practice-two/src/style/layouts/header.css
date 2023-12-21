@@ -6,7 +6,7 @@
   background-position: center;
 }
 
-.nav__list-icon {
+.navbar__list-icon {
   display: none;
 }
 
@@ -14,7 +14,7 @@
 }
 
 @media (min-width: 1440px) {
-  .nav__logo {
+  .navbar__logo {
     color: var(--color-primary);
     text-align: center;
     font-size: var(--font-size-2xlg);
@@ -47,7 +47,7 @@
     letter-spacing: var(--letter-spacing-normal);
   }
 
-  .nav__list {
+  .navbar__list {
     display: flex;
     list-style: none;
     width: 50%;
@@ -65,7 +65,7 @@
     letter-spacing: var(--letter-spacing-medium);
   }
 
-  .nav__list-icon {
+  .navbar__list-icon {
     display: flex;
     align-items: center;
     gap: 25px;
@@ -101,7 +101,7 @@
     z-index: 2;
   }
 
-  .nav__language {
+  .navbar__language {
     position: relative;
     display: inline-block;
     padding: 0;
