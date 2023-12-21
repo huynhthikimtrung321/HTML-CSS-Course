@@ -6,9 +6,9 @@
   background-position: center;
 }
 
-.navbar__list-icon {
+/* .navbar__list-icon {
   display: none;
-}
+} */
 
 @media (min-width: 768px) {
 }
@@ -51,7 +51,10 @@
     display: flex;
     list-style: none;
     width: 50%;
-    justify-content: space-around;
+    gap: 40px;
+    justify-content: flex-end;
+    margin-left: 10%;
+
   }
 
   .item-content {
@@ -69,7 +72,7 @@
     display: flex;
     align-items: center;
     gap: 25px;
-    margin-top: -20px;
+    margin-bottom: 30px;
   }
 
   .custom-select {
@@ -107,7 +110,7 @@
     padding: 0;
   }
 
-  .icon-search:hover {
+  .icon-search-img:hover {
     transform: scale(1.2);
   }
 
