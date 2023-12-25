@@ -3,6 +3,12 @@
   background-position: center;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
 .navbar__logo {
   color: var(--color-primary);
   font-size: var(--font-size-2xlg);
@@ -16,11 +22,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.navbar {
-  padding: 0 10px;
-  background-color: var(--color-secondary);
 }
 
 .icon-menu {
@@ -37,11 +38,9 @@
 
 @media (min-width: 768px) {
   .navbar {
-    display: flex;
-    justify-content: space-between;
-    background-color: transparent;
-    padding: 15px;
+    padding: 20px 15px ;
   }
+  
 
   .icon-menu {
     display: none;
@@ -53,7 +52,7 @@
     gap: 50px;
   }
 
-  .item-content {
+  .navbar__list-link {
     display: flex;
     justify-content: space-around;
 
@@ -62,7 +61,7 @@
     }
   }
 
-  .item-content {
+  .navbar__list-link {
     color: var(--color-base);
     font-size: var(--font-size-md);
     font-style: var(--font-style-default);
@@ -73,11 +72,10 @@
 
   .navbar__list {
     display: flex;
-    list-style: none;
     gap: 40px;
   }
 
-  .item-content {
+  .navbar__list-link {
     color: var(--color-base);
     text-decoration: none;
     align-items: center;
@@ -96,18 +94,15 @@
 
   .custom-select {
     width: 80px;
-    height: auto;
     border-radius: 20px;
     border: 1px solid var(--color-base);
     text-align: center;
     color: var(--color-base);
     background-color: var(--color-background);
-    appearance: none;
-    padding: 5px 0;
     -webkit-appearance: none;
     -moz-appearance: none;
-    position: relative;
-    z-index: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
     &:hover {
       cursor: pointer;
@@ -129,8 +124,6 @@
 
   .navbar__language {
     position: relative;
-    display: inline-block;
-    padding: 0;
   }
 
   .icon-search-img:hover {
