@@ -50,35 +50,21 @@
   .navbar__list-link {
     display: flex;
     justify-content: space-around;
-
-    &:hover {
-      color: var(--color-primary);
-    }
-  }
-
-  .navbar__list-link {
     color: var(--color-base);
     font-size: var(--font-size-md);
     font-style: var(--font-style-default);
     font-weight: var(--font-weight-primary);
     line-height: var(--line-height-normal);
     letter-spacing: var(--letter-spacing-normal);
+
+    &:hover {
+      color: var(--color-primary);
+    }
   }
 
   .navbar__list {
     display: flex;
     gap: 40px;
-  }
-
-  .navbar__list-link {
-    color: var(--color-base);
-    text-decoration: none;
-    align-items: center;
-    font-size: var(--font-size-m);
-    font-style: var(--font-style-default);
-    font-weight: var(--font-weight-primary);
-    line-height: var(--line-height-default);
-    letter-spacing: var(--letter-spacing-medium);
   }
 
   .navbar__list-icon {
