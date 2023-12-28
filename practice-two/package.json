@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "parcel ./src/*.html",
+      "build": "rm -rf build && rm -rf .parcel-cache && parcel build ./src/*.html --no-cache --no-source-maps --dist-dir dist"
     },
     "author": "Kim Trung",
     "license": "ISC",
