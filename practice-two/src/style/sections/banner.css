@@ -1,28 +1,40 @@
 .banner-section {
-  display: grid;
-  grid-template-rows: auto auto auto auto;
-  grid-template-columns: 1fr;
-  padding-top: 7%;
+  position: relative;
+  padding-top: 25px;
+}
+
+.banner-section::after {
+  content: "";
+  background-image: url("../../assets/images/iphon-app.png");
+  height: 110px;
+  width: 225px;
+  background-size: cover;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .banner-section__header-text {
-  width: 180px;
   color: var(--color-base);
   font-size: var(--font-size-xs);
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-normal);
   letter-spacing: var(--letter-spacing-md);
-  text-align: center;
+  margin-left: 30px;
 }
 
 .banner-section__description {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   width: 235px;
   margin: 0 auto;
+  padding-bottom: 130px;
 }
 
-
-.banner-section__description-title {
+.banner-section__title {
   color: var(--color-base);
   font-size: var(--font-size-2xs);
   font-style: var(--font-style-default);
@@ -30,39 +42,26 @@
   line-height: var(--line-height-base);
 }
 
-.banner-section__description-text {
+.banner-section__text {
   color: var(--color-base);
-  margin-top: 15px;
 }
 
-.banner-section__description-main {
+.banner-section__brand-name {
   color: var(--color-primary);
   font-size: var(--font-size-xlg);
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-normal);
   letter-spacing: var(--letter-spacing-normal);
-  margin: 15px 10px;
-}
-
-.banner-section__image {
-  background-image: url("../../assets/images/iphon-app.png");
-  height: 110px;
-  width: 225px;
-  background-size: cover; 
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  margin-top: 10px;
-  
+  margin-top: 15px;
+  margin-left: 10px;
 }
 
 .banner-section__apps {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-top: 10px;
-  margin-bottom: 27px;
+  padding-bottom: 15px;
 }
 
 .banner-section__app-dowload {
@@ -78,19 +77,19 @@
 
 @media (min-width: 768px) {
   .banner-section {
-    display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 6%;
+    padding-left: 50px;
+    padding-top: 50px;
   }
 
-  .banner-section__image {
+  .banner-section::after {
     background-image: url("../../assets/images/iphone-app.png");
     width: 220px;
     height: 337px;
+    bottom: 0;
+    transform: translateX(25%);
   }
 
-  .banner-section__description-main {
+  .banner-section__brand-name {
     font-size: var(--font-size-2xlg);
   }
 
@@ -99,30 +98,17 @@
     display: none;
   }
 
-  .banner-section__image {
-    grid-row: span 3;
-    margin-top: 0;
-  }
-
   .banner-section__header-text {
     line-height: var(--line-height-base);
     letter-spacing: var(--letter-spacing-normal);
-    width: 279px;
     margin-left: 0;
   }
 
   .banner-section__description {
-    grid-column: 1 / span 1;
-    grid-row: 2;
-    justify-self: end;
     margin: 0;
     width: 280px;
-  }
-
-  .banner-section__image--iphone-app {
-    display: block;
-    width: 220px;
-    height: 337px;
+    padding-bottom: 0;
+    padding-top: 60px;
   }
 
   .banner-section__app-dowload {
@@ -131,6 +117,9 @@
   }
 
   .banner-section__apps {
+    justify-content: start;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: 0;
   }
 }
@@ -138,12 +127,9 @@
 @media (min-width: 1440px) {
   .banner-section__header-text {
     font-size: var(--font-size-md);
-    line-height: var(--line-height-normal);
-    letter-spacing: var(--letter-spacing-normal);
-    margin-left: 50px;
   }
 
-  .banner-section__description-main {
+  .banner-section__brand-name {
     font-size: var(--font-size-3xlg);
     line-height: var(--line-height-normal);
     letter-spacing: var(--letter-spacing-xlg);
@@ -151,15 +137,13 @@
 
   .banner-section__description {
     width: 450px;
+    padding-top: 151px;
+    gap: 30px;
   }
 
-  .banner-section__description-title {
+  .banner-section__title {
     font-size: var(--font-size-lg);
     line-height: var(--line-height-3xlg);
-  }
-
-  .banner-section__description-text {
-    margin-top: 20px;
   }
 
   .banner-section__app-dowload {
@@ -167,9 +151,13 @@
     height: 40px;
   }
 
-  .banner-section__image {
-    margin-top: 56px;
+  .banner-section::after {
     width: 358px;
     height: 551px;
+  }
+
+  .banner-section__apps {
+    padding-bottom: 60px;
+    padding-top: 60px;
   }
 }
