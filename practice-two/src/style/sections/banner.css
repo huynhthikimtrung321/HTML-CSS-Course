@@ -93,11 +93,6 @@
     font-size: var(--font-size-2xlg);
   }
 
-  .banner-section__image--iphone,
-  .banner-section__image--iphone-screen {
-    display: none;
-  }
-
   .banner-section__header-text {
     line-height: var(--line-height-base);
     letter-spacing: var(--letter-spacing-normal);
