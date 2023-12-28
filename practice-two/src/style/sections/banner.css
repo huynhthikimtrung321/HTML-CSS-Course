@@ -6,19 +6,21 @@
 }
 
 .banner-section__header-text {
+  width: 180px;
   color: var(--color-base);
   font-size: var(--font-size-xs);
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-normal);
   letter-spacing: var(--letter-spacing-md);
-  margin-left: 20px;
+  text-align: center;
 }
 
 .banner-section__description {
-  width: 80%;
+  width: 235px;
   margin: 0 auto;
 }
+
 
 .banner-section__description-title {
   color: var(--color-base);
@@ -33,20 +35,26 @@
   margin-top: 15px;
 }
 
-.banner-section__header-title {
+.banner-section__description-main {
   color: var(--color-primary);
   font-size: var(--font-size-xlg);
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-normal);
   letter-spacing: var(--letter-spacing-normal);
-  margin: 15px 35px;
+  margin: 15px 10px;
 }
 
 .banner-section__image {
-  position: relative;
+  background-image: url("../../assets/images/iphon-app.png");
+  height: 110px;
+  width: 225px;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
   margin: 0 auto;
   margin-top: 10px;
+  
 }
 
 .banner-section__apps {
@@ -60,22 +68,12 @@
 .banner-section__app-dowload {
   width: 67.5px;
   height: 20px;
+  display: block;
 }
 
 .appstore-img:hover,
 .google-play-img:hover {
   transform: scale(1.1);
-}
-
-.banner-section__image--iphone-screen {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.banner-section__image--iphone-app {
-  display: none;
 }
 
 @media (min-width: 768px) {
@@ -86,15 +84,14 @@
     padding-top: 6%;
   }
 
-  .banner-section__header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  .banner-section__image {
+    background-image: url("../../assets/images/iphone-app.png");
+    width: 220px;
+    height: 337px;
   }
 
-  .banner-section__header-title {
+  .banner-section__description-main {
     font-size: var(--font-size-2xlg);
-    text-align: center;
   }
 
   .banner-section__image--iphone,
@@ -107,16 +104,11 @@
     margin-top: 0;
   }
 
-  .banner-section__header-intro {
-    width: 68%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-  }
-
   .banner-section__header-text {
     line-height: var(--line-height-base);
     letter-spacing: var(--letter-spacing-normal);
+    width: 279px;
+    margin-left: 0;
   }
 
   .banner-section__description {
@@ -124,6 +116,7 @@
     grid-row: 2;
     justify-self: end;
     margin: 0;
+    width: 280px;
   }
 
   .banner-section__image--iphone-app {
@@ -147,13 +140,17 @@
     font-size: var(--font-size-md);
     line-height: var(--line-height-normal);
     letter-spacing: var(--letter-spacing-normal);
+    margin-left: 50px;
   }
 
-  .banner-section__header-title {
-    text-align: center;
+  .banner-section__description-main {
     font-size: var(--font-size-3xlg);
     line-height: var(--line-height-normal);
     letter-spacing: var(--letter-spacing-xlg);
+  }
+
+  .banner-section__description {
+    width: 450px;
   }
 
   .banner-section__description-title {
@@ -165,11 +162,6 @@
     margin-top: 20px;
   }
 
-  .banner-section__image--iphone-app {
-    width: 358px;
-    height: 551px;
-  }
-
   .banner-section__app-dowload {
     width: 135px;
     height: 40px;
@@ -177,5 +169,7 @@
 
   .banner-section__image {
     margin-top: 56px;
+    width: 358px;
+    height: 551px;
   }
 }
