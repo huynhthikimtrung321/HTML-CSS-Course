@@ -64,13 +64,13 @@
   padding-bottom: 15px;
 }
 
-.banner-section__app-dowload {
+.banner-section__app-download {
   width: 67.5px;
   height: 20px;
   display: block;
 }
 
-.appstore-img:hover,
+.app-store-img:hover,
 .google-play-img:hover {
   transform: scale(1.1);
 }
@@ -106,7 +106,7 @@
     padding-top: 60px;
   }
 
-  .banner-section__app-dowload {
+  .banner-section__app-download {
     width: 71.914px;
     height: 21.291px;
   }
@@ -141,7 +141,7 @@
     line-height: var(--line-height-3xlg);
   }
 
-  .banner-section__app-dowload {
+  .banner-section__app-download {
     width: 135px;
     height: 40px;
   }
