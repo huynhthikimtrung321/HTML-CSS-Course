@@ -27,8 +27,6 @@
   }
 
   .heading-section {
-    font-size: var(--font-size-xlg);
     line-height: var(--line-height-5xlg);
-    letter-spacing: var(--letter-spacing-2xs);
   }
 }
