@@ -13,6 +13,18 @@
   line-height: var(--line-height-base);
 }
 
+.text-color-primary {
+  color: var(--color-primary);
+}
+
+.text-color-secondary {
+  color: var(--color-secondary);
+}
+
+.text-color-base {
+  color: var(--color-base);
+}
+
 @media (min-width: 768px) {
   .heading-section {
     font-size: var(--font-size-xlg);
