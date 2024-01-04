@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="iconNext" viewBox="0 0 42 42">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M21 41C9.9543 41 1 32.0457 1 21C1 9.9543 9.9543 1 21 1C32.0457 1 41 9.9543 41 21C41 32.0457 32.0457 41 21 41Z" stroke="white" stroke-width="2"/>
+        <path d="M22.75 14.75L28.75 20.75L22.75 26.75" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <path d="M13.25 21H27.25" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="iconPrev" viewBox="0 0 42 42">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M21 41C32.0457 41 41 32.0457 41 21C41 9.9543 32.0457 1 21 1C9.9543 1 1 9.9543 1 21C1 32.0457 9.9543 41 21 41Z" stroke="white" stroke-width="2"/>
+        <path d="M19.25 14.75L13.25 20.75L19.25 26.75" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <path d="M28.75 21H14.75" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+</svg>
