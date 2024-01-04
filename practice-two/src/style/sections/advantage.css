@@ -118,6 +118,7 @@
 @media (min-width: 768px) {
   .advantages__content {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 100px;
   }
 }
 
@@ -129,6 +130,9 @@
   .advantages__header {
     gap: 22px;
     margin-top: 65px;
+  }
+  .advantages__content {
+    gap: 187px;
   }
 
   .advantage__percentage {
