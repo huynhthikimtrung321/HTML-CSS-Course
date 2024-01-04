@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+.advantages-text {
+  color: var(--color-secondary);
+}
+
 .advantages__header {
   display: flex;
   flex-direction: column;
@@ -22,7 +26,6 @@
 .advantages__content {
   display: grid;
   gap: 25px;
-  width: 100%;
   margin-top: 35px;
   margin-bottom: 32px;
 }
@@ -34,7 +37,6 @@
 
 .advantages__description-label {
   text-transform: uppercase;
-  color: var(--color-secondary);
   font-size: var(--font-size-xs);
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
@@ -43,11 +45,10 @@
 }
 
 .advantages__description-text {
-  color: var(--color-secondary);
   text-align: center;
 }
 
-.advantage__content-item {
+.advantages__content-item {
   width: 108px;
   height: 108px;
 }
@@ -59,7 +60,7 @@
   gap: 15px;
 }
 
-.advantage__percentage {
+.advantages__percentage {
   width: 107px;
   height: 107px;
   border: solid 2px var(--color-border-primary);
@@ -98,7 +99,6 @@
 }
 
 .percent__integer {
-  color: var(--color-secondary);
   font-size: var(--font-size-xlg);
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
@@ -107,7 +107,6 @@
 }
 
 .percent__decimal {
-  color: var(--color-secondary);
   font-size: var(--font-size-base);
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
@@ -135,7 +134,7 @@
     gap: 187px;
   }
 
-  .advantage__percentage {
+  .advantages__percentage {
     width: 200px;
     height: 200px;
   }
@@ -154,7 +153,7 @@
     height: 187px;
   }
 
-  .advantage__content-item {
+  .advantages__content-item {
     width: 203px;
     height: 203px;
   }
