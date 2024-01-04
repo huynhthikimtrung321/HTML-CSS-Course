@@ -12,10 +12,6 @@
   margin-top: 20px;
 }
 
-.text-color-secondary {
-  color: var(--color-secondary);
-}
-
 .advantages__description {
   display: flex;
   flex-direction: column;
@@ -25,7 +21,6 @@
 
 .advantages__content {
   display: grid;
-  justify-content: space-around;
   gap: 25px;
   width: 100%;
   margin-top: 35px;
@@ -60,6 +55,7 @@
 .advantages__item {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 15px;
 }
 
@@ -122,10 +118,6 @@
 @media (min-width: 768px) {
   .advantages__content {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .advantages__item {
-    align-items: center;
   }
 }
 
