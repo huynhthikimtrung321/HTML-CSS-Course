@@ -81,7 +81,7 @@
 }
 
 @media (min-width: 768px) {
-  .testimonials__wrap {
+  .testimonials__wrapper {
     display: flex;
     flex-direction: column;
     position: relative;
