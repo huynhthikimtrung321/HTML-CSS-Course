@@ -1,6 +1,6 @@
 .project {
-  margin-top: 29px;
-  margin-bottom: 50px;
+  padding-top: 29px;
+  padding-bottom: 50px;
 }
 
 .project__contents {
@@ -55,10 +55,11 @@
 
 .project__header-text {
   width: 240px;
+  padding-top: 7px;
   text-align: center;
 }
 
-.content__item-img {
+.project__item-img {
   background-color: var(--color-primary);
   width: 120px;
   height: 120px;
@@ -90,7 +91,7 @@
   height: 11px;
 }
 
-.content__item-img:hover {
+.project__item-img:hover {
   border-color: var(--color-primary);
 
   &::before {
@@ -131,7 +132,8 @@
   }
 
   .project__header-text {
-    width: 555px
+    width: 555px;
+    padding-top: 23px;
   }
 
   .project__item-description {
@@ -139,7 +141,7 @@
     margin-top: 23px;
   }
 
-  .content__item-img {
+  .project__item-img {
     width: 160px;
     height: 160px;
   }
@@ -150,7 +152,7 @@
     margin-top: 67px;
   }
 
-  .content__item-img {
+  .project__item-img {
     width: 262px;
     height: 262px;
   }
@@ -159,7 +161,7 @@
     font-size: var(--font-size-md);
     line-height: var(--line-height-2xlg);
   }
-  .content__item-img:hover {
+  .project__item-img:hover {
 
     &::before{
       width: 40px;
