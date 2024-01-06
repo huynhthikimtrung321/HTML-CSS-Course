@@ -60,7 +60,6 @@
 }
 
 .project__item-img {
-  background-color: var(--color-primary);
   width: 120px;
   height: 120px;
   border: 4px var(--border-input-style-default) var(--color-border-primary);
@@ -93,7 +92,7 @@
 
 .project__item-img:hover {
   border-color: var(--color-primary);
-
+  background-color: var(--color-primary);
   &::before {
     content: '';
     background-image: url(../../assets/images/view.svg);
