@@ -75,7 +75,7 @@
   display: none;
 }
 
-.project__view-count {
+.project__view-counts {
   &::before {
     content: "";
     background-image: url(../../assets/images/view.svg);
