@@ -39,7 +39,7 @@
   text-align: center;
 }
 
-.project__btn {
+.project--btn {
   margin-top: 10px;
 
   &:hover {
