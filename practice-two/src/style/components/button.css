@@ -26,6 +26,12 @@
   color: var(--color-base);
 }
 
+.btn--project {
+  &:hover {
+    background-color: var(--color-primary);
+  }
+}
+
 .form-input {
   border-width: var(--border-input-width-default);
   border-style: var(--border-input-style-default);
