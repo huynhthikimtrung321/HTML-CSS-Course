@@ -25,6 +25,10 @@
   color: var(--color-base);
 }
 
+.text-center {
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .heading-section {
     font-size: var(--font-size-xlg);

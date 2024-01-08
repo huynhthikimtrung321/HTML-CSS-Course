@@ -29,8 +29,16 @@
 .form-input {
   border-width: var(--border-input-width-default);
   border-style: var(--border-input-style-default);
-  border-radius: 5px;
+  border-radius: var(--boder-input);
   opacity: 0.8;
+}
+
+.btn--cta {
+  padding: 15px 20px;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 @media (min-width: 1440px) {
