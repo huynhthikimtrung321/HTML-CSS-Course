@@ -50,7 +50,7 @@
   width: 190px;
 }
 
-.card-name {
+.review__card-name {
   font-size: var(--font-size-md);
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
@@ -60,7 +60,7 @@
 
 .review__person-img {
   position: absolute;
-  bottom: -32px;
+  bottom: -10%;
   width: 64px;
   height: 64px;
 }
@@ -83,6 +83,7 @@
 
   &:hover {
     fill: var(--color-secondary);
+    cursor: pointer;
   }
 }
 
@@ -131,7 +132,7 @@
   }
 
   .review__person-img {
-    bottom: -64px;
+    bottom: -20%;
     width: 128px;
     height: 128px;
   }
@@ -149,7 +150,7 @@
     height: 348px;
   }
 
-  .card-name {
+  .review__card-name {
     --font-size: 24px;
     font-size: var(--font-size);
     margin-bottom: 10px;
