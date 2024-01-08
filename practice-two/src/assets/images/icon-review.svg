@@ -1,15 +1,5 @@
 <svg  xmlns="http://www.w3.org/2000/svg" style="display: none;">
-  <symbol id="dotnav-mobile" viewBox="0 0 160 8">
-    <path d="M1 4C1 2.34315 2.34315 1 4 1C5.65685 1 7 2.34315 7 4C7 5.65685 5.65685 7 4 7C2.34315 7 1 5.65685 1 4Z" stroke="#4B4B4B" fill="none" stroke-width="2"/>
-    <path d="M32 4C32 2.34315 33.3431 1 35 1C36.6569 1 38 2.34315 38 4C38 5.65685 36.6569 7 35 7C33.3431 7 32 5.65685 32 4Z" fill="#4B4B4B" stroke="#4B4B4B" stroke-width="2"/>
-    <path d="M63 4C63 2.34315 64.3431 1 66 1C67.6569 1 69 2.34315 69 4C69 5.65685 67.6569 7 66 7C64.3431 7 63 5.65685 63 4Z" fill="none" stroke="#4B4B4B" stroke-width="2"/>
-    <path d="M91 4C91 2.34315 92.3431 1 94 1C95.6569 1 97 2.34315 97 4C97 5.65685 95.6569 7 94 7C92.3431 7 91 5.65685 91 4Z" fill="none" stroke="#4B4B4B" stroke-width="2"/>
-    <path d="M122 4C122 2.34315 123.343 1 125 1C126.657 1 128 2.34315 128 4C128 5.65685 126.657 7 125 7C123.343 7 122 5.65685 122 4Z" fill="none" stroke="#4B4B4B" stroke-width="2"/>
-    <path d="M153 4C153 2.34315 154.343 1 156 1C157.657 1 159 2.34315 159 4C159 5.65685 157.657 7 156 7C154.343 7 153 5.65685 153 4Z" fill="none" stroke="#4B4B4B" stroke-width="2"/>
-  </symbol>
-  <symbol id="dotnav" viewBox="0 0 74 14">
-    <path d="M1 7C1 3.68629 3.68629 1 7 1C10.3137 1 13 3.68629 13 7C13 10.3137 10.3137 13 7 13C3.68629 13 1 10.3137 1 7Z" fill="#4B4B4B" stroke="#4B4B4B" stroke-width="2"/>
-    <path d="M31 7C31 3.68629 33.6863 1 37 1C40.3137 1 43 3.68629 43 7C43 10.3137 40.3137 13 37 13C33.6863 13 31 10.3137 31 7Z" fill="none" stroke="#4B4B4B" stroke-width="2"/>
-    <path d="M61 7C61 3.68629 63.6863 1 67 1C70.3137 1 73 3.68629 73 7C73 10.3137 70.3137 13 67 13C63.6863 13 61 10.3137 61 7Z" fill="none" stroke="#4B4B4B" stroke-width="2"/>
+  <symbol id="dotnav" viewBox="0 0 8 8">
+    <path d="M1 4C1 2.34315 2.34315 1 4 1C5.65685 1 7 2.34315 7 4C7 5.65685 5.65685 7 4 7C2.34315 7 1 5.65685 1 4Z" stroke="#4B4B4B" stroke-width="2"/>
   </symbol>
 </svg>
