@@ -34,7 +34,11 @@
 }
 
 .contact__form--message {
-  padding: 13px
+  padding: 13px;
+}
+
+.contact__form--checkbox {
+  accent-color: var(--color-primary);
 }
 
 .contact__address {
