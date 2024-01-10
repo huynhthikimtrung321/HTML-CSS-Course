@@ -39,6 +39,16 @@
   opacity: 0.8;
 }
 
+.btn--contact {
+  border: none;
+  padding: 13px 40px;
+  background-color: var(--color-primary);
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
 @media (min-width: 1440px) {
   .btn {
     border-radius: 35px;

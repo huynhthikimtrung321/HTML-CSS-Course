@@ -3,3 +3,9 @@ body {
   font-size: var(--font-size-base);
   font-family: 'roboto';
 }
+
+input,
+button,
+textarea {
+  font-family: 'roboto';
+}
