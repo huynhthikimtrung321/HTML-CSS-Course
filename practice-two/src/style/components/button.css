@@ -26,6 +26,14 @@
   color: var(--color-base);
 }
 
+.btn--cta {
+  padding: 15px 20px;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
 .btn--project {
   &:hover {
     background-color: var(--color-primary);
