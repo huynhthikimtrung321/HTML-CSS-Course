@@ -66,13 +66,6 @@
   margin-top: 50px;
 }
 
-.card__position {
-  font-size: var(--font-size-xs);
-  font-style: var(--font-style-default);
-  font-weight: var(--font-weight-primary);
-  line-height: var(--line-height-2xlg);
-}
-
 .review__icon-dot {
   width: 8px;
   height: 8px;
@@ -91,10 +84,6 @@
 }
 
 @media (min-width: 768px) {
-  .dotnav-mobile-icon {
-    display: none;
-  }
-
   .review__person-img {
     left: 60%;
   }
@@ -139,13 +128,14 @@
   }
 
   .review__card-name {
-    --font-size: 24px;
+    --font-size: calc(24 / var(--font-size-base) * 1rem);
     font-size: var(--font-size);
     margin-bottom: 10px;
   }
 
   .review__card-comment {
     font-size: var(--font-size-md);
+
   }
 
   .review__icon {
