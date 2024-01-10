@@ -28,16 +28,16 @@
   margin-bottom: 35px;
 }
 
-.contact__form--input {
+.contact__input {
   font-size: 14px;
   padding: 10px 14px;
 }
 
-.contact__form--message {
+.contact__message {
   padding: 13px;
 }
 
-.contact__form--checkbox {
+.contact__checkbox {
   accent-color: var(--color-primary);
 }
 
@@ -70,11 +70,11 @@
     font-size: var(--font-size-md);
   }
 
-  .contact__form--input {
+  .contact__input {
     padding-right: 30px;
   }
 
-  .contact__form--message {
+  .contact__message {
     padding-right: 40px;
     padding-left: 14px;
   }
