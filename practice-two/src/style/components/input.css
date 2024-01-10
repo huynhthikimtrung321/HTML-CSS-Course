@@ -1,7 +1,3 @@
-.input-placeholder {
-  padding-left: 10px;
-}
-
 .form-input {
   border-width: var(--border-input-width-default);
   border-style: var(--border-input-style-default);
