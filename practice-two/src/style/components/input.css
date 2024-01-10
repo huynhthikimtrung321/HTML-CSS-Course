@@ -1,0 +1,6 @@
+.form-input {
+  border-width: var(--border-input-width-default);
+  border-style: var(--border-input-style-default);
+  border-radius: var(--boder-input);
+  opacity: 0.8;
+}
