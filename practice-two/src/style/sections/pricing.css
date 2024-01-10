@@ -80,6 +80,7 @@
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-base);
   letter-spacing: var(--letter-spacing-medium);
+  text-transform: uppercase;
 }
 
 .pricing__card-price {
@@ -95,10 +96,6 @@
     vertical-align: super;
     padding-right: 8px;
   }
-}
-
-.btn--pricing {
-  padding: 9px 15px;
 }
 
 .pricing__card {
