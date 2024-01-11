@@ -13,7 +13,7 @@
   align-items: center;
 }
 
-.pricing__card-container {
+.pricing__cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
@@ -94,7 +94,7 @@
 }
 
 @media (min-width: 768px) {
-  .pricing__card-container {
+  .pricing__cards {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
@@ -119,7 +119,7 @@
     padding-bottom: 56px;
   }
 
-  .pricing__card-container {
+  .pricing__cards {
     margin-bottom: 50px;
   }
 
