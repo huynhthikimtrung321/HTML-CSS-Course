@@ -35,7 +35,7 @@
 }
 
 .contact__message {
-  padding: 13px;
+  padding: 11px 25px 67px 14px;
 }
 
 .contact__checkbox {
@@ -76,7 +76,6 @@
   }
 
   .contact__message {
-    padding-right: 40px;
-    padding-left: 14px;
+    padding-right: 30px;
   }
 }
