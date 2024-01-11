@@ -32,27 +32,26 @@
   padding-bottom: 20px;
 }
 
-.pricing__card--freemium {
+.pricing__card-heading--freemium {
   background-image: url("../../assets/images/card-pricing-freemium.webp");
 }
 
-.pricing__card--start-up {
+.pricing__card-heading--start-up {
   background-image: url("../../assets/images/card-pricing-start-up.webp");
 }
 
-.pricing__card--business {
+.pricing__card-heading--business {
   background-image: url("../../assets/images/card-pricing-business.webp");
 }
 
-.pricing__card--enterprise {
+.pricing__card-heading--enterprise {
   background-image: url("../../assets/images/card-pricing-enterprise.webp");
 }
 
 .pricing__card-description {
-  height: 65px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding-top: 11px;
+  padding-bottom: 7px;
+  flex-grow: 1;
 }
 
 .pricing__card-heading {
@@ -138,9 +137,5 @@
       --font-size: calc(24 / var(--font-size-base) * 1rem);
       font-size: var(--font-size);
     }
-  }
-
-  .pricing__card-description {
-    height: 110px;
   }
 }
