@@ -1,4 +1,4 @@
-.footer {
+.main-footer {
   background-color: var(--color-secondary);
 }
 
@@ -16,7 +16,7 @@
   gap: 6px;
 }
 
-.footer__list-title {
+.footer__title {
   font-size: var(--font-size-xs);
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
@@ -76,7 +76,7 @@
 }
 
 @media (min-width: 1440px) {
-  .footer__list-title {
+  .footer__title {
     font-size: var(--font-size-md);
   }
 
