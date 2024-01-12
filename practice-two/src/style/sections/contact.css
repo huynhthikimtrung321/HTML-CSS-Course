@@ -21,7 +21,6 @@
   );
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 24px;
   border-radius: 10px;
   padding: 35px;
@@ -31,15 +30,19 @@
 
 .contact__input {
   font-size: 14px;
-  padding: 10px 25px 10px 14px;
+  padding: 10px 48px 10px 14px;
 }
 
 .contact__message {
-  padding: 11px 35px 67px 14px;
+  padding-bottom: 67px;
 }
 
 .contact__checkbox {
   accent-color: var(--color-primary);
+}
+
+.contact__form-center {
+  align-self: center;
 }
 
 .contact__address {
@@ -76,7 +79,7 @@
   }
 
   .contact__input {
-    padding-right: 84px;
+    padding-right: 80px;
   }
 
   .contact__message {
