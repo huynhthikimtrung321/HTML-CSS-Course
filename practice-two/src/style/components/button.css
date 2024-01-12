@@ -26,6 +26,14 @@
   color: var(--color-base);
 }
 
+.btn--cta {
+  padding: 15px 20px;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
 .btn--project {
   &:hover {
     background-color: var(--color-primary);
@@ -49,10 +57,18 @@
   }
 }
 
+.btn--pricing {
+  padding: 9px 15px;
+}
+
 @media (min-width: 1440px) {
   .btn {
     border-radius: 35px;
     font-size: var(--font-size-base);
     padding: 10px 55px;
+  }
+
+  .btn--pricing {
+    border: none;
   }
 }
