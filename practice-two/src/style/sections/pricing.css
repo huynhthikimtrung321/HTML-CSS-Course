@@ -95,6 +95,7 @@
 @media (min-width: 768px) {
   .pricing__cards {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 76px;
   }
 
   .pricing__wrapper {
