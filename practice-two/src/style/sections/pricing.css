@@ -3,6 +3,9 @@
 }
 
 .pricing__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 30px;
   padding-bottom: 20px;
 }
@@ -57,7 +60,7 @@
 .pricing__card-heading {
   padding-top: 10px;
   width: 100%;
-  background-size: cover
+  background-size: cover;
 }
 
 .pricing__card-title {
@@ -93,7 +96,8 @@
 @media (min-width: 768px) {
   .pricing__cards {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 76px;
+    gap: 29px;
+    margin-top: 31px;
   }
 
   .pricing__wrapper {
@@ -119,6 +123,7 @@
 
   .pricing__cards {
     margin-bottom: 50px;
+    margin-top: 76px;
   }
 
   .pricing__card-title {
