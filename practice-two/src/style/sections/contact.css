@@ -51,13 +51,13 @@
   gap: 14px;
 }
 
-.contact__text {
+.contact__item {
   font-size: var(--font-size-2xs);
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-2xlg);
 }
 
-.contact__link {
+.contact__item--hover {
   &:hover {
     color: var(--color-primary);
   }
@@ -82,7 +82,7 @@
 }
 
 @media (min-width: 1440px) {
-  .contact__text {
+  .contact__item {
     font-size: var(--font-size-md);
   }
 
