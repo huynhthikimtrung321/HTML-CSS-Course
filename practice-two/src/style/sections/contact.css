@@ -24,18 +24,18 @@
   align-items: center;
   gap: 24px;
   border-radius: 10px;
-  padding: 35px 52px;
+  padding: 35px;
   margin-top: 40px;
   margin-bottom: 35px;
 }
 
 .contact__input {
   font-size: 14px;
-  padding: 10px 14px;
+  padding: 10px 25px 10px 14px;
 }
 
 .contact__message {
-  padding: 11px 25px 67px 14px;
+  padding: 11px 35px 67px 14px;
 }
 
 .contact__checkbox {
@@ -59,6 +59,10 @@
 }
 
 @media (min-width: 768px) {
+  .contact__form {
+    padding: 48px 52px 24px;
+  }
+
   .contact__info {
     display: flex;
     flex-direction: row;
@@ -72,10 +76,10 @@
   }
 
   .contact__input {
-    padding-right: 30px;
+    padding-right: 84px;
   }
 
   .contact__message {
-    padding-right: 30px;
+    padding-right: 92px;
   }
 }
