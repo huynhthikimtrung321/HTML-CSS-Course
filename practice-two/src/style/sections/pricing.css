@@ -61,7 +61,6 @@
 }
 
 .pricing__card-title {
-  color: var(--color-base);
   font-size: var(--font-size-m);
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
@@ -71,7 +70,6 @@
 }
 
 .pricing__card-price {
-  color: var(--color-base);
   font-size: var(--font-size-2xlg);
   font-style: var(--font-style-default);
   line-height: var(--line-height-normal);
