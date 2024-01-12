@@ -63,7 +63,7 @@
 }
 
 @media (min-width: 768px) {
-  .main-footer {
+  .main-footer__wrapper {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
@@ -78,6 +78,7 @@
 @media (min-width: 1440px) {
   .main-footer__title {
     font-size: var(--font-size-md);
+    padding-bottom: 19px;
   }
 
   .main-footer__list {
