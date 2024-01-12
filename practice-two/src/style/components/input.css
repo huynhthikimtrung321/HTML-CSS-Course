@@ -3,4 +3,5 @@
   border-style: var(--border-input-style-default);
   border-radius: var(--boder-input);
   opacity: 0.8;
+  outline: none;
 }
