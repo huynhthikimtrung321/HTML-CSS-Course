@@ -55,7 +55,7 @@
 .project__item-img {
   width: 120px;
   height: 120px;
-  border: 4px var(--border-input-style-default) var(--color-border-primary);
+  border: var(var(--boder-width-strong)) var(--border-input-style-default) var(--color-border-primary);
   border-radius: 50%;
   position: relative;
 }
