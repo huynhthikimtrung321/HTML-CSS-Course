@@ -75,7 +75,7 @@
 
   .custom-select {
     border-radius: 20px;
-    border: 1px solid var(--color-base);
+    border: var(--border-width-primary) var(--border-style-default) var(--color-base);
     color: var(--color-base);
     background-color: var(--color-background);
     -webkit-appearance: none;
@@ -87,9 +87,9 @@
   }
 
   .triangle-down {
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid var(--color-base);
+    border-left: var(--boder-width-strong) var(--border-style-default) transparent;
+    border-right: var(--boder-width-strong) var(--border-style-default) transparent;
+    border-top: var(--boder-width-strong) var(--border-style-default) var(--color-base);
     position: absolute;
     top: 50%;
     right: 10px;

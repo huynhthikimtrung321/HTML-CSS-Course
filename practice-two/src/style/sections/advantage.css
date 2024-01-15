@@ -59,7 +59,7 @@
 .advantages__percentage {
   width: 107px;
   height: 107px;
-  border: solid 2px var(--color-border-primary);
+  border: var(--border-width-secondary) var(--border-style-default) var(--color-border-primary);
   display: flex;
   justify-content: center;
   align-items: center;

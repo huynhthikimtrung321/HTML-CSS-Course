@@ -35,17 +35,16 @@
   --color-base: #fff;
   --color-rare: #f6f6f6;
   --color-background: #000000;
-  --box-shadow-color: rgba(0, 0, 0, 0.4);
+  --box-shadow-color: #00000066;
 
   --color-border-primary: #e6e6e6;
   --color-border-secondary: #7d7d7d;
   --color-border-tertiary: #999;
 
-  --border-btn-width-default: 2px;
-  --border-btn-style-default: solid;
-  --border-input-width-default: 1px;
-  --border-input-style-default: solid;
-  --boder-input: 5px;
+  --border-width-primary: 1px;
+  --border-width-secondary: 2px;
+  --boder-width-strong: 4px;
+  --border-style-default: solid;
 }
 
 @media (min-width: 768px) {
