@@ -28,7 +28,7 @@
 }
 
 .navbar__list,
-.navbar__list-icon {
+.navbar__icon {
   display: none;
 }
 
@@ -67,7 +67,7 @@
     gap: 40px;
   }
 
-  .navbar__list-icon {
+  .navbar__icon {
     display: flex;
     align-items: center;
     gap: 25px;
@@ -101,7 +101,7 @@
     position: relative;
   }
 
-  .icon-search-img {
+  .navbar__icon-img {
     width: 21px;
     height: 21px;
     fill: var(--color-base);
