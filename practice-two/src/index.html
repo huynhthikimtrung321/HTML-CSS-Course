@@ -18,7 +18,7 @@
     <header class="main-header">
       <div class="container">
         <nav class="navbar">
-          <h1 class="navbar__logo">H.</h1>
+          <a href="javascript:void(0)" class="navbar__logo">H.</a>
           <div class="navbar__content">
             <a href="javascript:void(0)" class="navbar__content-link">
               <img
@@ -48,12 +48,9 @@
               </li>
             </ul>
             <div class="navbar__list-icon">
-              <div class="icon-search-img">
-                <img
-                  src="assets/images/search-icon.svg"
-                  alt="search icon image"
-                />
-              </div>
+              <svg class="icon-search-img">
+                <use xlink:href="assets/images/search-icon.svg#search-icon"/>
+              </svg>
               <div class="navbar__language">
                 <select class="custom-select">
                   <option value="USA">US</option>

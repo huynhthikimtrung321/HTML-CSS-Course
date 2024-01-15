@@ -83,6 +83,7 @@
 
     &:hover {
       cursor: pointer;
+      border-color: var(--color-primary);
     }
   }
 
@@ -100,9 +101,16 @@
     position: relative;
   }
 
-  .icon-search-img:hover {
-    transform: scale(1.2);
-    cursor: pointer;
+  .icon-search-img {
+    width: 21px;
+    height: 21px;
+    fill: var(--color-base);
+    
+    &:hover {
+      transform: scale(1.2);
+      cursor: pointer;
+      border: none;
+    }
   }
 }
 
