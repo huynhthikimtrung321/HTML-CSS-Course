@@ -55,11 +55,20 @@
   margin-top: 27px;
 }
 
-.review__person-img {
+.review__person {
   position: absolute;
+  border-radius: 50%;
   bottom: -10%;
   width: 64px;
   height: 64px;
+}
+
+.review__person--light {
+  border: var(--border-width-secondary) var(--border-style-default) var(--color-secondary);
+}
+
+.review__person--platium {
+  border: var(--border-width-secondary) var(--border-style-default) var(--color-base);
 }
 
 .review__icon {
@@ -84,7 +93,7 @@
 }
 
 @media (min-width: 768px) {
-  .review__person-img {
+  .review__person {
     left: 60%;
   }
 
@@ -117,7 +126,7 @@
     width: 420px;
   }
 
-  .review__person-img {
+  .review__person {
     bottom: -20%;
     width: 128px;
     height: 128px;
