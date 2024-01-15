@@ -252,7 +252,7 @@
                   <span class="project__item-label">by</span> Lida Morrison, Nettie Burke
                 </p>
               </hgroup>
-              <button class="btn btn-base project__btn">review</button>
+              <button class="btn btn-base btn--project">review</button>
             </div>
             <div class="project__item">
               <figure class="project__item-img">
@@ -271,7 +271,7 @@
                   <span class="project__item-label">by</span> Ivan Alexander, Steven Soto, Clifford Hammond
                 </p>
               </hgroup>
-              <button class="btn btn-base project__btn">review</button>
+              <button class="btn btn-base btn--project">review</button>
             </div>
             <div class="project__item">
               <figure class="project__item-img">
@@ -290,7 +290,7 @@
                   <span class="project__item-label">by</span> Trevor James, Carl Stevenson
                 </p>
               </hgroup>
-              <button class="btn btn-base project__btn">review</button>
+              <button class="btn btn-base btn--project">review</button>
             </div>
             <div class="project__item">
               <figure class="project__item-img">
@@ -473,7 +473,42 @@
     <!-- END PRCING SECTION-->
 
       <!-- START CONTACT SECTION -->
-      <section></section>
+      <section class="contact">
+        <div class="container contact__wrapper">
+          <h2 class="heading-section text-color-base">Get in Touch</h2>
+          <form class="contact__form" action="javascript:void(0)">
+            <input type="text" name="name" placeholder="Name*" class="form-input contact__input">
+            <input type="email" name="email" placeholder="Email*" class="form-input contact__input">
+            <textarea name="message" placeholder="Message" class="form-input contact__input contact__message"></textarea>
+            <label class="text-normal text-color-base contact__form-center contact__label">
+              <input type="checkbox" class="contact__checkbox">
+              Most Urgent Question
+            </label>
+            <button type="submit" class="btn btn--contact text-color-secondary contact__form-center">Submit</button>
+          </form>
+          <address class="text-color-base contact__info">
+            <div class="contact__address">
+              <svg width="11" height="16">
+                <use xlink:href="assets/images/icon-contact.svg#location"></use>
+              </svg>
+              <p class="contact__item">2300 W Arbutus Dr Citrus Springs, FL 34434, USA</p>
+            </div>
+            <div class="contact__address">
+              <svg width="17" height="10">
+                <use xlink:href="assets/images/icon-contact.svg#email"></use>
+              </svg>
+              <a href="mailto:contact@hofmannui.net" class="contact__item contact__item--hover">contact@hofmannui.net</a>
+            </div>
+            <div class="contact__address">
+              <svg width="12" height="17">
+               <use xlink:href="assets/images/icon-contact.svg#phone"></use>
+              </svg>
+              <a href="tel:+9527756021" class="contact__item contact__item--hover">952-775-6021</a>
+            </div>
+          </address>
+        </div>
+      </section>
+  
       <!-- END CONTACT SECTION-->
     </main>
 
