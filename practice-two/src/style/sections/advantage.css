@@ -38,10 +38,7 @@
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-base);
   letter-spacing: var(--letter-spacing-lg);
-}
-
-.advantages__description-text {
-  text-align: center;
+  margin-bottom: 5px;
 }
 
 .advantages__content-item {
