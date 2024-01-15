@@ -16,7 +16,7 @@
   font-style: var(--font-weight-primary);
   font-weight: var(--font-style-default);
   line-height: var(--line-height-normal);
-  letter-spacing: var(--letter-spacing-xlg);
+  letter-spacing: var(--letter-spacing-3xs);
 }
 
 .navbar__content-icon {
@@ -55,7 +55,7 @@
     font-style: var(--font-style-default);
     font-weight: var(--font-weight-primary);
     line-height: var(--line-height-normal);
-    letter-spacing: var(--letter-spacing-normal);
+    letter-spacing: var(--letter-spacing-xlg);
 
     &:hover {
       color: var(--color-primary);

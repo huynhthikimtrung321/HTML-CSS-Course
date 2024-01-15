@@ -21,11 +21,11 @@
 
   --letter-spacing-xs: -0.5px;
   --letter-spacing-2xs: -0.8px;
+  --letter-spacing-3xs: 0.14px;
   --letter-spacing-sm: 0.375px;
   --letter-spacing-md: 0.5px;
   --letter-spacing-lg: 0.8px;
-  --letter-spacing-normal: 1px;
-  --letter-spacing-xlg: 0.14px;
+  --letter-spacing-xlg: 1px;
 
   --font-weight-primary: 400;
   --font-style-default: normal;
@@ -61,7 +61,7 @@
     --line-height-3xlg: calc(36 / var(--font-size-base) * 1rem);
     --line-height-4xlg: calc(42 / var(--font-size-base) * 1rem);
     --line-height-5xlg: calc(48 / var(--font-size-base) * 1rem);
-    --letter-spacing-xlg: 1.997px;
+    --letter-spacing-3xs: 1.997px;
     --letter-spacing-2xs: -1.6px;
   }
 }

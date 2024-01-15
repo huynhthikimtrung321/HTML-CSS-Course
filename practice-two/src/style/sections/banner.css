@@ -52,7 +52,7 @@
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-normal);
-  letter-spacing: var(--letter-spacing-normal);
+  letter-spacing: var(--letter-spacing-xlg);
   margin-top: 15px;
   margin-left: 10px;
 }
@@ -95,7 +95,7 @@
 
   .banner-section__header-text {
     line-height: var(--line-height-base);
-    letter-spacing: var(--letter-spacing-normal);
+    letter-spacing: var(--letter-spacing-xlg);
     margin-left: 0;
   }
 
@@ -127,7 +127,7 @@
   .banner-section__brand-name {
     font-size: var(--font-size-3xlg);
     line-height: var(--line-height-normal);
-    letter-spacing: var(--letter-spacing-xlg);
+    letter-spacing: var(--letter-spacing-3xs);
   }
 
   .banner-section__description {
