@@ -39,6 +39,20 @@
 
 .contact__checkbox {
   accent-color: var(--color-primary);
+
+  &::before {
+    content: "";
+    display: block;
+    border-radius: 3px;
+    width: 13px;
+    aspect-ratio: 1 / 1;
+    background-color: white;
+  }
+
+  &:checked::before {
+    background-image: url("../../assets/images/checkbox-checked.png");
+    background-size: 100% 100%;
+  }
 }
 
 .contact__button {
