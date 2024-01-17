@@ -146,9 +146,11 @@
     height: 40px;
   }
 
-  .banner-section::after {
-    width: 358px;
-    height: 551px;
+  .banner-section {
+    &::after {
+      width: 358px;
+      height: 551px;
+    }
   }
 
   .banner-section__apps {
