@@ -90,9 +90,9 @@
   }
 
   .triangle-down {
-    border-left: var(--boder-width-strong) var(--border-style-default) transparent;
-    border-right: var(--boder-width-strong) var(--border-style-default) transparent;
-    border-top: var(--boder-width-strong) var(--border-style-default) var(--color-base);
+    border-left: var(--border-width-strong) var(--border-style-default) transparent;
+    border-right: var(--border-width-strong) var(--border-style-default) transparent;
+    border-top: var(--border-width-strong) var(--border-style-default) var(--color-base);
     position: absolute;
     top: 50%;
     right: 10px;
