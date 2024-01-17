@@ -11,17 +11,17 @@
   cursor: pointer;
 }
 
-.btn-base {
+.btn--base {
   background-color: var(--color-base);
   color: var(--color-secondary);
 }
 
-.btn-primary {
+.btn--primary {
   background-color: var(--color-primary);
   color: var(--color-secondary);
 }
 
-.btn-secondary {
+.btn--secondary {
   background-color: var(--color-secondary);
   color: var(--color-base);
 }
