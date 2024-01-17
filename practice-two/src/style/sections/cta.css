@@ -28,7 +28,7 @@
 .cta__form {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 44px;
 }
 
 @media (min-width: 768px) {
