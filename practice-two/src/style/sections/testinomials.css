@@ -125,10 +125,12 @@
     gap: 40px;
   }
 
-  .testimonials__description::before {
-    height: 53px;
-    width: 68px;
-    top: -10%;
+  .testimonials__description {
+    &::before {
+      height: 53px;
+      width: 68px;
+      top: -10%;
+    }
   }
 
   .testimonials__content {
