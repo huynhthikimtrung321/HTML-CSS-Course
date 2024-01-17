@@ -19,17 +19,17 @@
   width: 240px;
 
   &::before {
-    content: '"';
-    font-size: var(--font-size-3xlg);
-    font-style: var(--font-style-default);
-    font-weight: var(--font-weight-primary);
-    line-height: var(--line-height-normal);
-    color: var(--color-primary);
+    content: "";
+    background-image: url("../../assets/images/quote-testimonials.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 25px;
     position: absolute;
     left: 50%;
     top: 10%;
     transform: translateX(-50%);
-    }
+  }
 }
 
 .testimonials__description-text {
@@ -125,10 +125,12 @@
     gap: 40px;
   }
 
-  .testimonials__description::before {
-    --font-size: calc(144 / var(--font-size-base) * 1rem);
-    font-size: var(--font-size);
-    top: -10%;
+  .testimonials__description {
+    &::before {
+      height: 53px;
+      width: 68px;
+      top: -10%;
+    }
   }
 
   .testimonials__content {
