@@ -29,8 +29,8 @@
 }
 
 .contact__input {
-  font-size: 14px;
-  padding: 10px 48px 8px 14px;
+  font-size: calc(14 / var(--font-size-base) * 1rem);
+  padding: 10px 48px 10px 14px;
 }
 
 .contact__message {
