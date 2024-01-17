@@ -5,7 +5,7 @@
 
 .banner-section::after {
   content: "";
-  background-image: url("../../assets/images/iphone-app-mobile.png");
+  background-image: url("../../assets/images/iphone-app-mobile.jpeg");
   height: 110px;
   width: 225px;
   background-size: cover;
@@ -82,7 +82,7 @@
   }
 
   .banner-section::after {
-    background-image: url("../../assets/images/iphone-app.png");
+    background-image: url("../../assets/images/iphone-app.jpeg");
     width: 220px;
     height: 337px;
     bottom: 0;
