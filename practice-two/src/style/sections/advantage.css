@@ -67,7 +67,7 @@
   background: conic-gradient(transparent 0% 25%, var(--color-primary) 0% 25%);
 }
 
-.advantages__item-dowloads {
+.advantages__item-download {
   background: conic-gradient(
     transparent 0% 60.25%,
     var(--color-primary) 0% 60.25%
