@@ -28,7 +28,7 @@
 }
 
 .navbar__list,
-.navbar__list-icon {
+.navbar__icon {
   display: none;
 }
 
@@ -67,7 +67,7 @@
     gap: 40px;
   }
 
-  .navbar__list-icon {
+  .navbar__icon {
     display: flex;
     align-items: center;
     gap: 25px;
@@ -83,6 +83,7 @@
 
     &:hover {
       cursor: pointer;
+      border-color: var(--color-primary);
     }
   }
 
@@ -100,9 +101,15 @@
     position: relative;
   }
 
-  .icon-search-img:hover {
-    transform: scale(1.2);
-    cursor: pointer;
+  .navbar__icon-img {
+    width: 21px;
+    height: 21px;
+    fill: var(--color-base);
+    
+    &:hover {
+      transform: scale(1.2);
+      cursor: pointer;
+    }
   }
 }
 
