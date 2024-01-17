@@ -85,13 +85,6 @@
   }
 }
 
-.pricing__card {
-  &:hover {
-    .btn--pricing {
-      background-color: var(--color-primary);
-    }
-  }
-}
 
 @media (min-width: 768px) {
   .pricing__cards {

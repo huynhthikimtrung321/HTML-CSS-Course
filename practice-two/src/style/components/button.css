@@ -59,6 +59,10 @@
 
 .btn--pricing {
   padding: 9px 15px;
+
+  &:hover {
+    background-color: var(--color-primary);
+  }
 }
 
 @media (min-width: 1440px) {
@@ -66,6 +70,12 @@
     border-radius: 35px;
     font-size: var(--font-size-base);
     padding: 10px 55px;
+  }
+
+  .btn--project {
+    &:hover {
+      border: none;
+    }
   }
 
   .btn--pricing {
