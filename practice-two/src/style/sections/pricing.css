@@ -93,6 +93,14 @@
     margin-top: 31px;
   }
 
+  .pricing__card {
+    width: 158px;
+  }
+
+  .pricing__card-heading {
+    padding-bottom: 13px;
+  }
+
   .pricing__wrapper {
     padding-top: 56px;
     padding-bottom: 30px;
@@ -107,6 +115,7 @@
   .pricing__card-heading {
     padding-top: 30px;
     padding-bottom: 10px;
+
   }
 
   .pricing__wrapper {
