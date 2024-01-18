@@ -37,29 +37,63 @@
   padding-bottom: 45px;
 }
 
-.contact__checkbox {
-  accent-color: var(--color-primary);
+.contact__label .contact__checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
 
-  &::before {
-    content: "";
-    display: block;
-    border-radius: 3px;
-    width: 13px;
-    aspect-ratio: 1 / 1;
-    background-color: var(--font-size-base);
+.contact__checkmark {
+  position: absolute;
+  left: 0;
+  height: 17px;
+  width: 17px;
+  border-radius: 3px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    display: none;
+  }
+}
+
+.contact__label {
+  .contact__checkbox {
+    ~ .contact__checkmark {
+      background-color: var(--color-base);
+    }
+
+    &:checked {
+      ~ .contact__checkmark {
+        background-color: var(--color-primary);
+
+        &:after {
+          display: block;
+        }
+      }
+    }
   }
 
-  &:checked::before {
-    background-image: url("../../assets/images/checkbox-checked.png");
-    background-size: 100% 100%;
-  }
+}
+
+.contact__label .contact__checkmark:after {
+  left: 5px;
+  width: 5px;
+  height: 10px;
+  border: var(--border-style-default) var(--color-base);
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .contact__button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
+  gap: 7px;
 }
 
 .contact__address {
@@ -81,9 +115,16 @@
 }
 
 .contact__label {
-  &:hover {
-    cursor: pointer;
-  }
+  display: block;
+  position: relative;
+  padding-left: 27px;
+  cursor: pointer;
+  font-size: var(--font-size-2xs);
+  -webkit-user-select: none;
+}
+
+.contact__label-text {
+  padding-bottom: 3px;
 }
 
 @media (min-width: 768px) {
@@ -109,5 +150,13 @@
 
   .contact__message {
     padding-right: 92px;
+  }
+
+  .contact__label {
+    font-size: var(--font-size-base);
+  }
+
+  .contact__checkmark {
+    margin-top: 3px;
   }
 }
