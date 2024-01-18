@@ -12,7 +12,8 @@
 
 ## TIMELINE
 
-* Estimation: 50 hours (2023/12/15 - 2023/12/28)
+* Estimation: 2023/12/15 - 2023/12/28
+* Actual time: 2023/12/15 - 2023/01/18 
 
 ## TARGETS
 
