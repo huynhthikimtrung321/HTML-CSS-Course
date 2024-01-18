@@ -77,15 +77,17 @@
   }
 }
 
-.contact__label .contact__checkmark:after {
-  left: 5px;
-  width: 5px;
-  height: 10px;
-  border: var(--border-style-default) var(--color-base);
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+.contact__label {
+  .contact__checkmark:after {
+    left: 5px;
+    width: 5px;
+    height: 10px;
+    border: var(--border-style-default) var(--color-base);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
 }
 
 .contact__button {
