@@ -47,6 +47,10 @@
     gap: 23px;
   }
 
+  .cta__header-deposit {
+    display: block;
+  }
+
   .cta__input {
     padding-right: 40px;
     padding-top: 13px;
