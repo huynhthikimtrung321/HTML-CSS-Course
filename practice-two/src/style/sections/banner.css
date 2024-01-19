@@ -1,18 +1,18 @@
 .banner-section {
   position: relative;
   padding-top: 25px;
-}
 
-.banner-section::after {
-  content: "";
-  background-image: url("../../assets/images/iphone-app-mobile.jpeg");
-  height: 110px;
-  width: 225px;
-  background-size: cover;
-  position: absolute;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
+  &::after {
+    content: "";
+    background-image: url("../../assets/images/iphone-app-mobile.jpeg");
+    height: 110px;
+    width: 225px;
+    background-size: cover;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .banner-section__header-text {
