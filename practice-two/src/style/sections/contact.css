@@ -69,7 +69,7 @@
       ~ .contact__checkmark {
         background-color: var(--color-primary);
 
-        &:after {
+        &::after {
           display: block;
         }
       }
@@ -78,7 +78,7 @@
 }
 
 .contact__label {
-  .contact__checkmark:after {
+  .contact__checkmark::after {
     left: 5px;
     width: 5px;
     height: 10px;
