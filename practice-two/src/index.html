@@ -1,15 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
     <title>HOFMANN</title>
-    <link rel="icon" href="assets/images/hofmann.svg" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <link rel="stylesheet" href="style/main.css" />
+    <link rel="icon" href="assets/images/hofmann.svg"/>
+    <link rel="stylesheet" href="style/main.css"/>
   </head>
 
   <body>
@@ -18,7 +14,7 @@
     <header class="main-header">
       <div class="container">
         <nav class="navbar">
-          <h1 class="navbar__logo">H.</h1>
+          <h1><a href="javascript:void(0)" class="navbar__logo">H.</a></h1>
           <div class="navbar__content">
             <a href="javascript:void(0)" class="navbar__content-link">
               <img
@@ -47,13 +43,10 @@
                 >
               </li>
             </ul>
-            <div class="navbar__list-icon">
-              <div class="icon-search-img">
-                <img
-                  src="assets/images/search-icon.svg"
-                  alt="search icon image"
-                />
-              </div>
+            <div class="navbar__icon">
+              <svg class="navbar__icon-img">
+                <use xlink:href="assets/images/search-icon.svg#search-icon"/>
+              </svg>
               <div class="navbar__language">
                 <select class="custom-select">
                   <option value="USA">US</option>
@@ -123,14 +116,14 @@
               </div>
               <div class="advantages__description">
                 <h3 class="advantages__description-label">Total conversion</h3>
-                <p class="text-normal advantages__description-text">
+                <p class="text-normal text-center">
                   The past few years have seen a dramatic change in the public
                   perception of cosmetic surgery.
                 </p>
               </div>
             </div>
             <div class="advantages__item">
-              <div class="advantages__percentage advantages__item-dowloads">
+              <div class="advantages__percentage advantages__item-download">
                 <div class="percent">
                   <p class="percent__integer">
                     39<sup class="percent__decimal">,75</sup>
@@ -139,7 +132,7 @@
               </div>
               <div class="advantages__description">
                 <h3 class="advantages__description-label">Free downloads</h3>
-                <p class="text-normal advantages__description-text">
+                <p class="text-normal text-center">
                   Can you imagine what we will be downloading in another twenty
                   years?
                 </p>
@@ -155,7 +148,7 @@
               </div>
               <div class="advantages__description">
                 <h3 class="advantages__description-label">Unique visitors</h3>
-                <p class="text-normal advantages__description-text">
+                <p class="text-normal text-center">
                   WordPress, the premier free open-source blogging utility, has
                   gone through several upgrades in its life.
                 </p>
@@ -170,7 +163,7 @@
       <!-- START TESTIMONIALS SECTION -->
       <section class="testimonials">
         <div class="container testimonials__wrapper">
-          <h2 class="heading-section text-color-base testimonials__header-text">
+          <h2 class="heading-section text-color-base text-center testimonials__header-text">
             What Clients are saying
           </h2>
           <div class="testimonials__content">
@@ -196,13 +189,13 @@
                   <img
                     src="assets/images/person-testinomials.webp"
                     alt="person testimonials img"
-                    class="img-default img-border"
+                    class="img-default img-border img-square"
                   />
                 </figure>
                 <div class="testimonials__contact">
                   <p class="text-color-primary testimonials__contact-name">
                     Ophelia Holland
-                  </p>
+                  </p>  
                   <p class="text-color-base testimonials__contact-mail">
                     @ophelia_holland
                   </p>
@@ -228,7 +221,7 @@
             <h2 class="heading-section">
               Recent Products
             </h2>
-            <p class="text-normal project__header-text">
+            <p class="text-normal text-center project__header-text">
               Having used discount toner cartridges for twenty years, there have
               been a lot of changes in the toner cartridge market. The market
               today is approximately a twenty billion dollar business.
@@ -238,78 +231,78 @@
             <div class="project__item">
               <figure class="project__item-img">
                 <img
-                  src="assets/images/image-product-1.webp"
-                  alt="thump FTA key image"
-                  class="img-default img-border"
+                  src="assets/images/product-app-maintenance.webp"
+                  alt="product app maintenance image"
+                  class="img-default img-border img-square"
                 />
                 <div class="project__view">
                   <p class="text-normal text-color-base project__view-counts">91312</p>
                 </div>
               </figure>
-              <hgroup class="project__item-description">
-                <h3 class="project__item-title">App maintenance</h3>
-                <p class="text-normal project__item-author">
+              <hgroup class="text-center project__item-description">
+                <h3 class="text-center project__item-title">App maintenance</h3>
+                <p class="text-normal">
                   <span class="project__item-label">by</span> Lida Morrison, Nettie Burke
                 </p>
               </hgroup>
-              <button class="btn btn-base btn--project">review</button>
+              <button class="btn btn--base btn--project">review</button>
             </div>
             <div class="project__item">
               <figure class="project__item-img">
                 <img
-                  src="assets/images/image-product-2.webp"
-                  alt="thump FTA key image"
-                  class="img-default img-border"
+                  src="assets/images/product-fta-key.webp"
+                  alt="product FTA key image"
+                  class="img-default img-border img-square"
                 />
                 <div class="project__view">
                   <p class="text-normal text-color-base project__view-counts">91312</p>
                 </div>
               </figure>
-              <hgroup class="project__item-description">
-                <h3 class="project__item-title">Fta key</h3>
-                <p class="text-normal project__item-author">
+              <hgroup class="text-center project__item-description">
+                <h3 class="text-center project__item-title">Fta key</h3>
+                <p class="text-normal">
                   <span class="project__item-label">by</span> Ivan Alexander, Steven Soto, Clifford Hammond
                 </p>
               </hgroup>
-              <button class="btn btn-base btn--project">review</button>
+              <button class="btn btn--base btn--project">review</button>
             </div>
             <div class="project__item">
               <figure class="project__item-img">
                 <img
-                  src="assets/images/image-product-3.webp"
-                  alt="thump FTA key image"
-                  class="img-default img-border"
+                  src="assets/images/product-smart-watch.webp"
+                  alt="product smart watch image"
+                  class="img-default img-border img-square"
                 />
                 <div class="project__view">
                   <p class="text-normal text-color-base project__view-counts">91312</p>
                 </div>
               </figure>
-              <hgroup class="project__item-description">
+              <hgroup class="text-center project__item-description">
                 <h3 class="project__item-title">Smart watch</h3>
-                <p class="text-normal project__item-author">
+                <p class="text-normal">
                   <span class="project__item-label">by</span> Trevor James, Carl Stevenson
                 </p>
               </hgroup>
-              <button class="btn btn-base btn--project">review</button>
+              <button class="btn btn--base btn--project">review</button>
             </div>
             <div class="project__item">
               <figure class="project__item-img">
                 <img
-                  src="assets/images/image-product-4.webp"
-                  alt="thump FTA key image"
-                  class="img-default img-border"
+                  src="assets/images/product-watch-app.webp"
+                  alt="product watch apps image"
+                  class="img-default img-border img-square"
                 />
                 <div class="project__view">
                   <p class="text-normal text-color-base project__view-counts">91312</p>
                 </div>
               </figure>
-              <hgroup class="project__item-description">
-                <h3 class="project__item-title">Watch apps</h3>
-                <p class="text-normal project__item-author">
+              <hgroup class="text-center project__item-description">
+                <h3 class="text-center project__item-title">Watch apps</h3>
+                <p class="text-normal">
                   <span class="project__item-label">by</span> Glen Snyder, Andrew Goodwin, Lida Morrison 
                 </p>
               </hgroup>
-              <button class="btn btn-base btn--project">review</button>
+              <button class="btn btn--base btn--project">review</button>
             </div>
           </div>
         </div>
@@ -325,7 +318,7 @@
           </hgroup>
           <form action="javascript:void(0)" class="cta__form">
               <input type="email" name="email" placeholder="Email" class="form-input cta__input">
-              <button type="submit" class="btn btn-secondary btn--cta">Register</button>
+              <button type="submit" class="btn btn--secondary btn--cta">Register</button>
           </form>
         </div>
       </section>
@@ -350,9 +343,9 @@
                 Editor in okodesign.net
               </p>
             </div>
-            <figure class="review__person-img">
-              <img src="assets/images/person-review-light.webp" alt="person review card light"
-                class="img-default img-border">
+            <figure class="review__person review__person--light">
+              <img src="assets/images/avatar-feedback-light.webp" alt="person review card light"
+                class="img-default img-border img-square">
             </figure>
           </div>
           <div class="review__card review__card--platinum">
@@ -367,9 +360,9 @@
                 Lead Designer in okodesign.net
               </p>
             </div>
-            <figure class="review__person-img">
-              <img src="assets/images/person-review-paltinum.webp" alt="person review card platium"
-               class="img-default img-border">
+            <figure class="review__person review__person--platium">
+              <img src="assets/images/avatar-feedback-platinum.webp" alt="person review card platium"
+               class="img-default img-border img-square">
             </figure>
           </div>
         </div>
@@ -426,7 +419,7 @@
                 <li class="text-normal">10 Messages</li>
                 <li class="text-normal">50 Images per Day</li>
               </ul>
-            <a class="btn btn-base btn--pricing">Get started</a>
+            <a class="btn btn--base btn--pricing">Get started</a>
           </div>
           <div class="pricing__card">
             <hgroup class="text-center text-color-base pricing__card-heading pricing__card-heading--start-up">
@@ -438,7 +431,7 @@
               <li class="text-normal">100 Messages</li>
               <li class="text-normal">100 Images per</li>
             </ul>
-              <a class="btn btn-base btn--pricing">Get started</a>
+              <a class="btn btn--base btn--pricing">Get started</a>
           </div >
           <div class="pricing__card">
             <hgroup class="text-center text-color-base pricing__card-heading pricing__card-heading--business">
@@ -451,7 +444,7 @@
                 <li class="text-normal">300 Images per Day</li>
                 <li class="text-normal">Project Reviews</li>
               </ul>
-              <a class="btn btn-base btn--pricing">Get started</a>
+              <a class="btn btn--base btn--pricing">Get started</a>
           </div>
           <div class="pricing__card">
             <hgroup class="text-center text-color-base pricing__card-heading pricing__card-heading--enterprise">
@@ -464,7 +457,7 @@
                 <li class="text-normal">Unlimited Images per Day</li>
                 <li class="text-normal">Project Reviews</li>
               </ul>
-              <a class="btn btn-base btn--pricing">Get started</a>
+              <a class="btn btn--base btn--pricing">Get started</a>
           </div>
         </div>
       </div>
@@ -480,11 +473,13 @@
             <input type="text" name="name" placeholder="Name*" class="form-input contact__input">
             <input type="email" name="email" placeholder="Email*" class="form-input contact__input">
             <textarea name="message" placeholder="Message" class="form-input contact__input contact__message"></textarea>
-            <label class="text-normal text-color-base contact__form-center contact__label">
-              <input type="checkbox" class="contact__checkbox">
-              Most Urgent Question
-            </label>
-            <button type="submit" class="btn btn--contact text-color-secondary contact__form-center">Submit</button>
+            <div class="contact__button">
+              <label class="text-normal text-color-base contact__form-center contact__label">
+                <input type="checkbox" class="contact__checkbox">
+                Most Urgent Question
+              </label>
+              <button type="submit" class="btn btn--contact text-color-secondary">Submit</button>
+            </div>
           </form>
           <address class="text-color-base contact__info">
             <div class="contact__address">
@@ -600,7 +595,7 @@
               </svg>
             </a>
             <a href="javascript:void(0)" class="main-footer__social-link">
-              <svg width="35" height="22">
+              <svg width="35" height="24">
                 <use xlink:href="assets/images/icon-footer.svg#google"></use>
               </svg>
             </a>

@@ -22,13 +22,13 @@
 .cta__input {
   padding: 10px;
   border: none;
-  box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 11px var(--box-shadow-color);
 }
 
 .cta__form {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 44px;
 }
 
 @media (min-width: 768px) {

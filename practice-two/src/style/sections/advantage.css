@@ -38,10 +38,7 @@
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-base);
   letter-spacing: var(--letter-spacing-lg);
-}
-
-.advantages__description-text {
-  text-align: center;
+  margin-bottom: 5px;
 }
 
 .advantages__content-item {
@@ -59,7 +56,7 @@
 .advantages__percentage {
   width: 107px;
   height: 107px;
-  border: solid 2px var(--color-border-primary);
+  border: var(--border-width-secondary) var(--border-style-default) var(--color-border-primary);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,7 +67,7 @@
   background: conic-gradient(transparent 0% 25%, var(--color-primary) 0% 25%);
 }
 
-.advantages__item-dowloads {
+.advantages__item-download {
   background: conic-gradient(
     transparent 0% 60.25%,
     var(--color-primary) 0% 60.25%

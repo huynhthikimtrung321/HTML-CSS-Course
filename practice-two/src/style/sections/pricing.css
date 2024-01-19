@@ -85,13 +85,6 @@
   }
 }
 
-.pricing__card {
-  &:hover {
-    .btn--pricing {
-      background-color: var(--color-primary);
-    }
-  }
-}
 
 @media (min-width: 768px) {
   .pricing__cards {
@@ -129,7 +122,7 @@
   .pricing__card-title {
     font-size: var(--font-size-md);
     line-height: var(--line-height-xlg);
-    letter-spacing: var(--letter-spacing-normal);
+    letter-spacing: var(--letter-spacing-xlg);
   }
 
   .pricing__card-price {

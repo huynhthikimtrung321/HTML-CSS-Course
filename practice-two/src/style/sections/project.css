@@ -24,7 +24,6 @@
 }
 
 .project__item-title {
-  text-align: center;
   font-size: var(--font-size-xs);
   font-style: var(--font-style-default);
   font-weight: var(--font-weight-primary);
@@ -36,10 +35,6 @@
   display: block;
 }
 
-.project__item-author {
-  text-align: center;
-}
-
 .project__header {
   display: flex;
   flex-direction: column;
@@ -49,13 +44,12 @@
 .project__header-text {
   width: 240px;
   padding-top: 7px;
-  text-align: center;
 }
 
 .project__item-img {
   width: 120px;
   height: 120px;
-  border: 4px var(--border-input-style-default) var(--color-border-primary);
+  border: var(--boder-width-strong) var(--border-style-default) var(--color-border-primary);
   border-radius: 50%;
   position: relative;
 }
@@ -127,7 +121,7 @@
   }
 
   .project__item-description {
-    height: 90px;
+    flex-grow: 1;
   }
 
   .project__item-img {

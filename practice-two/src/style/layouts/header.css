@@ -1,6 +1,8 @@
 .main-header {
-  background-image: url("../../assets/images/background-header.png");
+  background-image: url("../../assets/images/background-header.jpeg");
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar {
@@ -16,7 +18,7 @@
   font-style: var(--font-weight-primary);
   font-weight: var(--font-style-default);
   line-height: var(--line-height-normal);
-  letter-spacing: var(--letter-spacing-xlg);
+  letter-spacing: var(--letter-spacing-3xs);
 }
 
 .navbar__content-icon {
@@ -28,7 +30,7 @@
 }
 
 .navbar__list,
-.navbar__list-icon {
+.navbar__icon {
   display: none;
 }
 
@@ -55,7 +57,7 @@
     font-style: var(--font-style-default);
     font-weight: var(--font-weight-primary);
     line-height: var(--line-height-normal);
-    letter-spacing: var(--letter-spacing-normal);
+    letter-spacing: var(--letter-spacing-xlg);
 
     &:hover {
       color: var(--color-primary);
@@ -67,7 +69,7 @@
     gap: 40px;
   }
 
-  .navbar__list-icon {
+  .navbar__icon {
     display: flex;
     align-items: center;
     gap: 25px;
@@ -75,7 +77,7 @@
 
   .custom-select {
     border-radius: 20px;
-    border: 1px solid var(--color-base);
+    border: var(--border-width-primary) var(--border-style-default) var(--color-base);
     color: var(--color-base);
     background-color: var(--color-background);
     -webkit-appearance: none;
@@ -83,13 +85,14 @@
 
     &:hover {
       cursor: pointer;
+      border-color: var(--color-primary);
     }
   }
 
   .triangle-down {
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid var(--color-base);
+    border-left: var(--boder-width-strong) var(--border-style-default) transparent;
+    border-right: var(--boder-width-strong) var(--border-style-default) transparent;
+    border-top: var(--boder-width-strong) var(--border-style-default) var(--color-base);
     position: absolute;
     top: 50%;
     right: 10px;
@@ -100,9 +103,15 @@
     position: relative;
   }
 
-  .icon-search-img:hover {
-    transform: scale(1.2);
-    cursor: pointer;
+  .navbar__icon-img {
+    width: 21px;
+    height: 21px;
+    fill: var(--color-base);
+    
+    &:hover {
+      transform: scale(1.2);
+      cursor: pointer;
+    }
   }
 }
 

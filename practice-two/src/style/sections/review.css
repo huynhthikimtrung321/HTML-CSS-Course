@@ -26,12 +26,8 @@
   margin-top: 28px;
 
   &::before {
-    content: '"';
-    font-size: var(--font-size-3xlg);
-    font-style: var(--font-style-default);
-    font-weight: var(--font-weight-primary);
-    line-height: var(--line-height-normal);
-    padding-top: 20px;
+    padding-top: 28px;
+    padding-bottom: 50px;
   }
 }
 
@@ -39,7 +35,7 @@
   background-color: var(--color-secondary);
 
   &::before {
-    color: var(--color-base);
+    content: url("../../assets/images/quote-platinum.png");
   }
 }
 
@@ -55,11 +51,20 @@
   margin-top: 27px;
 }
 
-.review__person-img {
+.review__person {
   position: absolute;
+  border-radius: 50%;
   bottom: -10%;
   width: 64px;
   height: 64px;
+}
+
+.review__person--light {
+  border: var(--border-width-secondary) var(--border-style-default) var(--color-secondary);
+}
+
+.review__person--platium {
+  border: var(--border-width-secondary) var(--border-style-default) var(--color-base);
 }
 
 .review__icon {
@@ -84,7 +89,7 @@
 }
 
 @media (min-width: 768px) {
-  .review__person-img {
+  .review__person {
     left: 60%;
   }
 
@@ -96,6 +101,10 @@
 
   .review__card--light {
     background-color: var(--color-primary);
+
+    &::before {
+      content: url("../../assets/images/quote-light.png");
+    }
   }
 
   .review__card {
@@ -117,7 +126,7 @@
     width: 420px;
   }
 
-  .review__person-img {
+  .review__person {
     bottom: -20%;
     width: 128px;
     height: 128px;

@@ -4,24 +4,24 @@
   font-weight: var(--font-weight-primary);
   line-height: var(--line-height-normal);
   letter-spacing: var(--letter-spacing-lg);
-  border: var(--border-btn-width-default) var(--border-btn-style-default) var(--color-border-secondary) ;
+  border: var(--border-width-primary) var(--border-style-default) var(--color-border-secondary) ;
   border-radius: 30px;
   padding: 6px 45px;
   text-transform: uppercase;
   cursor: pointer;
 }
 
-.btn-base {
+.btn--base {
   background-color: var(--color-base);
   color: var(--color-secondary);
 }
 
-.btn-primary {
+.btn--primary {
   background-color: var(--color-primary);
   color: var(--color-secondary);
 }
 
-.btn-secondary {
+.btn--secondary {
   background-color: var(--color-secondary);
   color: var(--color-base);
 }
@@ -59,6 +59,10 @@
 
 .btn--pricing {
   padding: 9px 15px;
+
+  &:hover {
+    background-color: var(--color-primary);
+  }
 }
 
 @media (min-width: 1440px) {
@@ -66,6 +70,12 @@
     border-radius: 35px;
     font-size: var(--font-size-base);
     padding: 10px 55px;
+  }
+
+  .btn--project {
+    &:hover {
+      border: none;
+    }
   }
 
   .btn--pricing {

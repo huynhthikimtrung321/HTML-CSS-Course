@@ -3,6 +3,10 @@
   height: auto;
 }
 
+.img-square {
+  aspect-ratio: 1 / 1;
+}
+
 .img-border {
   border-radius: 50%;
   object-fit: cover;
