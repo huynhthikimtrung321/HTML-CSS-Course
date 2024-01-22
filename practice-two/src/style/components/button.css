@@ -26,20 +26,6 @@
   color: var(--color-base);
 }
 
-.btn--cta {
-  padding: 15px 20px;
-
-  &:hover {
-    transform: scale(1.1);
-  }
-}
-
-.btn--project {
-  &:hover {
-    background-color: var(--color-primary);
-  }
-}
-
 .form-input {
   border-width: var(--border-input-width-default);
   border-style: var(--border-input-style-default);
@@ -47,38 +33,10 @@
   opacity: 0.8;
 }
 
-.btn--contact {
-  border: none;
-  padding: 13px 40px;
-  background-color: var(--color-primary);
-
-  &:hover {
-    transform: scale(1.1);
-  }
-}
-
-.btn--pricing {
-  padding: 9px 15px;
-
-  &:hover {
-    background-color: var(--color-primary);
-  }
-}
-
 @media (min-width: 1440px) {
   .btn {
     border-radius: 35px;
     font-size: var(--font-size-base);
     padding: 10px 55px;
-  }
-
-  .btn--project {
-    &:hover {
-      border-color: var(--color-primary);
-    }
-  }
-
-  .btn--pricing {
-    border: none;
   }
 }
