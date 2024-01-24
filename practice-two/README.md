@@ -12,8 +12,8 @@
 
 ## TIMELINE
 
-* Estimation: 2023/12/15 - 2023/12/28
-* Actual time: 2023/12/15 - 2023/01/18 
+* Estimation: 2023/12/15 - 2023/12/28 (6 days)
+* Actual time: 2023/12/15 - 2023/01/18 (15 days)
 
 ## TARGETS
 
@@ -21,11 +21,10 @@
 * Understand the concepts of Flex and Grid CSS
 * Apply mobile-first for practice
 * Responsive (Mobile, Tablet, Desktop)
-* Cross-browser testing with last version
+* Cross-browser testing like: Chrome, Edge, Firefox
 
 ## TOOLS
 
-* [Chrome](https://www.google.com/chrome/)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Responsive Viewer](https://chromewebstore.google.com/detail/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en)
 

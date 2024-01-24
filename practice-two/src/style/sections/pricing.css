@@ -85,6 +85,13 @@
   }
 }
 
+.btn-pricing {
+  padding: 9px 15px;
+
+  &:hover {
+    background-color: var(--color-primary);
+  }
+}
 
 @media (min-width: 768px) {
   .pricing__cards {
@@ -143,5 +150,10 @@
       --font-size: calc(24 / var(--font-size-base) * 1rem);
       font-size: var(--font-size);
     }
+  }
+
+  .btn-pricing {
+    padding: 10px 45px;
+    border: none;
   }
 }
